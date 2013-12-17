@@ -8,6 +8,10 @@ stylesheets[all][] = css/style.css
 stylesheets[all][] = css/colors.css
 stylesheets[print][] = css/print.css
 
+regions[first_header] = First-Header
+regions[second_header] = Second-Header
+regions[main_image] = Main-Image
+
 regions[header] = Header
 regions[help] = Help
 regions[page_top] = Page top

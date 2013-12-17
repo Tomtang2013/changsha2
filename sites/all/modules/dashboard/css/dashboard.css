@@ -1,0 +1,125 @@
+.dashboard-page{
+     background-color: #494949!Important;
+}
+
+.block-dashboard .content{
+    margin-top:0px!Important;
+}
+
+.page-main{
+    width:1024px;
+    margin: auto;
+}
+
+.first_header{
+    width: 100%;
+    background-color: black;
+    height:60px;
+}
+
+.first_header ul  {
+   padding: 20px 10px 10px 100px!Important;
+   width: auto;
+   display:inline-block;
+}
+
+.first_header ul li {
+    color:#d7d7d7;
+    list-style:none;
+    float:left;
+   
+}
+
+.first_header ul li a{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+.first_header ul li a:link,a:visited,a:hover,a:active{
+    color:#d7d7d7!Important;;
+    text-decoration: none;
+}
+
+.nav_link{
+    float:right;
+    color:#d7d7d7;
+    font-size: 18px;
+}
+
+.sec_header{
+    width: 100%;
+    background-color: yellow;
+    height:100px;
+}
+
+.dashboard_main_logo{
+    width:106px;
+    height:86px;
+    margin-left: 108px;
+    margin-top: -130px;
+}
+
+.dashboard_main{
+    width: 100%;
+    background-color: black;
+}
+
+.dashboard_main .dashboard_img1{
+   background-image: url(../image/main_image/dashboard_image1.jpg);
+   background-color: #ffffff;
+   width:100%;
+   height:350px;
+}
+
+.dashboard_main .dashboard_img2{
+   background-image: url(../image/main_image/dashboard_image2.jpg);
+   background-color: #ffffff;
+   width:100%;
+   height:350px;
+}
+
+.dashboard_main .dashboard_img3{
+   background-image: url(../image/main_image/dashboard_image3.jpg);
+   background-color: #ffffff;
+   width:100%;
+   height:350px;
+}
+
+.dashboard_main .dashboard_img4{
+   background-image: url(../image/main_image/dashboard_image4.jpg);
+   background-color: #ffffff;
+   width:100%;
+   height:350px;
+}
+.dashboard_main .small_log1{
+    width: 50px;
+    height:80px;
+}
+
+.dashboard_main .small_log2{
+    width: 70px;
+    height:130px;
+    padding-left: 72%;
+    padding-top: 20px;
+}
+
+.dashboard_main .small_log3{
+    width: 170px;
+    height:140px;
+    padding-left:15%;
+    padding-top: 20px;
+}
+
+.dashboard_main .small_log4{
+    width: 160px;
+    height:180px;
+    padding-left:15%;
+    padding-top: 25px;
+}
+.dashboard_footer{
+    background: none repeat scroll 0 0 #292929;
+    height: 180px;
+    width:1024px;
+    margin: auto;
+}
