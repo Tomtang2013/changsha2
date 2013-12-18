@@ -9,7 +9,7 @@
 <div class="dashboard_main">
     <a href="" style="z-index: 999;"><img class="dashboard_main_logo" src="<?php print drupal_get_path('module', 'dashboard'); ?>/image/header/design_changsha_logo.png" alt=""/></a>
     <div class="dashboard_img1">
-        <a href="#"><img class="small_log1" src="<?php print drupal_get_path('module', 'dashboard'); ?>/image/main_image/dashboard_logo1.png"  alt=""/></a>
+        <a href="#"><img class="small_log1" src="<?php //print drupal_get_path('module', 'dashboard'); ?>/image/main_image/dashboard_logo1.png"  alt=""/></a>
     </div>
     <div class="dashboard_img2">
         <a href="#"><img class="small_log2" src="<?php print drupal_get_path('module', 'dashboard'); ?>/image/main_image/dashboard_logo2.png"  alt=""/></a>

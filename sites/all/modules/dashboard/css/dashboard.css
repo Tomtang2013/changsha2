@@ -118,8 +118,58 @@
     padding-top: 25px;
 }
 .dashboard_footer{
-    background: none repeat scroll 0 0 #292929;
-    height: 180px;
+    background:  #292929;
+    height: 200px;
     width:1024px;
     margin: auto;
+}
+
+.dashboard_footer .news_footer_contact{
+    font-size: 12px;
+    color:#8b8b8b;
+    padding : 60px 120px 30px 120px;
+    width: 48%;
+    float: left;
+}
+
+.dashboard_footer .news_footer_partner{
+    font-size: 12px;
+    color:#8b8b8b;
+    float: left;
+    padding-top : 60px ;
+}
+
+.dashboard_footer .friend_link{
+    font-size: 12px;
+    color:#8b8b8b;
+    padding : 0px 20px 0px 120px;
+    float: left;
+}
+
+.dashboard_footer .friend_link span{
+   padding-right: 10px;
+}
+
+.dashboard_footer .friend_link .friend_link_img{
+    width: 50px;
+    height: 25px;
+    vertical-align:top;
+}
+
+.dashboard_footer .new_media{
+    font-size: 12px;
+    color:#8b8b8b;
+    padding : 0px 20px;
+    float: left;
+}
+
+.dashboard_footer .new_media span{
+   padding-right: 10px;
+}
+
+.dashboard_footer .new_media .new_media_img{
+    vertical-align:top;
+    width: 40px;
+    height: 40px;
+    
 }

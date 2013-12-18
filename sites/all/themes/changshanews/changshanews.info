@@ -11,6 +11,7 @@ stylesheets[print][] = css/print.css
 regions[first_header] = First-Header
 regions[second_header] = Second-Header
 regions[main_image] = Main-Image
+regions[news_footer] = News Footer
 
 regions[header] = Header
 regions[help] = Help
