@@ -7,7 +7,7 @@
 }
 
 .page-main{
-    width:1024px;
+    width:100%;
     margin: auto;
 }
 
@@ -66,31 +66,25 @@
 }
 
 .dashboard_main .dashboard_img1{
-   background-image: url(../image/main_image/dashboard_image1.jpg);
+   background-image: url(../image/main_image/dashboard_image1.jpg) ;
+   
+}
+.dashboard_main .dashboard_img{
    background-color: #ffffff;
+   background-size: cover;
+   height:515px;
    width:100%;
-   height:350px;
+   margin: auto;
 }
 
 .dashboard_main .dashboard_img2{
    background-image: url(../image/main_image/dashboard_image2.jpg);
-   background-color: #ffffff;
-   width:100%;
-   height:350px;
 }
-
 .dashboard_main .dashboard_img3{
    background-image: url(../image/main_image/dashboard_image3.jpg);
-   background-color: #ffffff;
-   width:100%;
-   height:350px;
 }
-
 .dashboard_main .dashboard_img4{
    background-image: url(../image/main_image/dashboard_image4.jpg);
-   background-color: #ffffff;
-   width:100%;
-   height:350px;
 }
 .dashboard_main .small_log1{
     width: 50px;
@@ -100,27 +94,28 @@
 .dashboard_main .small_log2{
     width: 70px;
     height:130px;
-    padding-left: 72%;
-    padding-top: 20px;
+    margin-left: 82%;
+    margin-top: 50px;
 }
 
 .dashboard_main .small_log3{
     width: 170px;
     height:140px;
-    padding-left:15%;
-    padding-top: 20px;
+    margin-left:15%;
+    margin-top: 20px;
 }
 
 .dashboard_main .small_log4{
     width: 160px;
     height:180px;
-    padding-left:15%;
-    padding-top: 25px;
+    margin-left:15%;
+    margin-top: 45px;
 }
+
 .dashboard_footer{
     background:  #292929;
     height: 200px;
-    width:1024px;
+    width:100%;
     margin: auto;
 }
 
@@ -128,7 +123,7 @@
     font-size: 12px;
     color:#8b8b8b;
     padding : 60px 120px 30px 120px;
-    width: 48%;
+    width: 38%;
     float: left;
 }
 
@@ -137,9 +132,11 @@
     color:#8b8b8b;
     float: left;
     padding-top : 60px ;
+    margin-left: 20%;
 }
 
 .dashboard_footer .friend_link{
+    clear:left;
     font-size: 12px;
     color:#8b8b8b;
     padding : 0px 20px 0px 120px;
@@ -169,7 +166,7 @@
 
 .dashboard_footer .new_media .new_media_img{
     vertical-align:top;
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     
 }

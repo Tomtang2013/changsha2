@@ -17,10 +17,10 @@
     </div>
     <div class="new_media">
         <span>新媒体</span>
-        <span><a href=""><img class="new_media_img" src="<?php print drupal_get_path('module', 'dashboard'); ?>/image/footer/group01.png" alt=""></a></span>
-        <span><a href=""><img class="new_media_img" src="<?php print drupal_get_path('module', 'dashboard'); ?>/image/footer/group02.png" alt=""></a></span>
-        <span> <a href=""><img src="" alt=""></a></span>
-        <span><a href=""><img src="" alt=""></a></span>
+        <span><a href=""><img class="new_media_img" src="<?php print drupal_get_path('module', 'dashboard'); ?>/image/footer/wb.png" alt=""></a></span>
+        <span><a href=""><img class="new_media_img" src="<?php print drupal_get_path('module', 'dashboard'); ?>/image/footer/wx.png" alt=""></a></span>
+        <span> <a href=""><img class="new_media_img" src="<?php print drupal_get_path('module', 'dashboard'); ?>/image/footer/facebook.png" alt=""></a></span>
+        <span><a href=""><img class="new_media_img" src="<?php print drupal_get_path('module', 'dashboard'); ?>/image/footer/twitter.png" alt=""></a></span>
         <span> <a href=""><img src="" alt=""></a></span>
         <span><a href=""><img src="" alt=""></a></span>
     </div>
