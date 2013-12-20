@@ -66,7 +66,7 @@
 }
 
 .dashboard_main .dashboard_img1{
-   background-image: url(../image/main_image/dashboard_image1.jpg) ;
+   background-image: url(../images/main_image/dashboard_image1.jpg) ;
    
 }
 .dashboard_main .dashboard_img{
@@ -78,13 +78,13 @@
 }
 
 .dashboard_main .dashboard_img2{
-   background-image: url(../image/main_image/dashboard_image2.jpg);
+   background-image: url(../images/main_image/dashboard_image2.jpg);
 }
 .dashboard_main .dashboard_img3{
-   background-image: url(../image/main_image/dashboard_image3.jpg);
+   background-image: url(../images/main_image/dashboard_image3.jpg);
 }
 .dashboard_main .dashboard_img4{
-   background-image: url(../image/main_image/dashboard_image4.jpg);
+   background-image: url(../images/main_image/dashboard_image4.jpg);
 }
 .dashboard_main .small_log1{
     width: 50px;

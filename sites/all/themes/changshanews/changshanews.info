@@ -7,11 +7,15 @@ stylesheets[all][] = css/layout.css
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/colors.css
 stylesheets[print][] = css/print.css
+stylesheets[all][] = css/dashboard.css
 
-regions[first_header] = First-Header
-regions[second_header] = Second-Header
-regions[main_image] = Main-Image
-regions[news_footer] = News Footer
+;regions[first_header] = First-Header
+;regions[second_header] = Second-Header
+;regions[main_image] = Main-Image
+;regions[news_footer] = News Footer
+
+;regions[first_news_service_main] = News Service Main
+;regions[news_service_header] = News Service Header
 
 regions[header] = Header
 regions[help] = Help
