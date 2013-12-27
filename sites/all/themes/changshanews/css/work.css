@@ -1,0 +1,77 @@
+.work_summary_main{
+   
+}
+
+.work_summary_top{
+     background-color: #cccccc;
+     min-height: 600px;
+     padding-left: 188px;
+}
+
+#work_summary_left{
+    float:left;
+    font-size: 40px;
+    margin: 10px;
+    padding-top: 50px;
+    color:black;
+}
+
+#work_summary_right{
+    clear: right;
+    color: black;
+    float: right;
+    margin-right: 117px;
+    padding-left: 0;
+    padding-top: 50px;
+}
+#work_summary_right span {
+    background-color: yellow;
+    clear: right;
+    float: right;
+    font-size: 26px;
+    padding: 5px;
+}
+
+.work_img{
+   
+}
+.work_imgs{
+     clear:left;
+     padding-left: 200px;
+     background-color: white;
+     padding-top:20px;
+}
+
+
+.work_imgs a{
+    float:left;
+}
+
+.div_img{
+    height: 335px;
+    width: 335px;
+    background-size: cover;
+    float: left;
+    margin-bottom: 13px;
+}
+.div_img a{
+    width: 100%;
+    height: 100%;
+}
+.div_img_wp{
+    background-image: url(../images/work/summary/wp.jpg);
+}
+.div_img_yg{
+    margin-right:13px;margin-left:13px;
+    background-image: url(../images/work/summary/yg.jpg);
+}
+.div_img_ditan{
+    background-image: url(../images/work/summary/ditan.jpg);
+}
+.div_img_gyds{
+    background-image: url(../images/work/summary/gyds.jpg);
+}
+.div_img_hjy{
+    margin-right:13px;margin-left:13px;
+    background-image: url(../images/work/summary/hjy.jpg);
+}

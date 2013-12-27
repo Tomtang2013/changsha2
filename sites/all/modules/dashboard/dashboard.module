@@ -40,6 +40,13 @@ function dashboard_menu() {
         'access arguments' => array('dashboard'),
         'weight' => -47,
     );
+
+    $items['work/summary'] = array(
+        'title' => t('工作'),
+        'page callback' => 'work_summary_call_back',
+        'access arguments' => array('dashboard'),
+        'weight' => -47,
+    );
     return $items;
 }
 
@@ -47,70 +54,8 @@ function dashboard_call_back() {
     $pageContent = '';
     return $pageContent;
 }
-//
-///**
-// * Implements hook_block_info().
-// */
-//function dashboard_block_info() {
-//    $blocks = array();
-//    $blocks['first_header'] = array(
-//        'info' => t('First Header'),
-//        'cache' => DRUPAL_CACHE_PER_ROLE,
-//    );
-//    $blocks['second_header'] = array(
-//        'info' => t('Second Header'),
-//        'cache' => DRUPAL_CACHE_PER_ROLE,
-//    );
-//    $blocks['dashboard_main'] = array(
-//        'info' => t('Dashboard Main'),
-//        'cache' => DRUPAL_CACHE_PER_ROLE,
-//    );
-//    $blocks['news_footer'] = array(
-//        'info' => t('News Footer'),
-//        'cache' => DRUPAL_CACHE_PER_ROLE,
-//    );
-//
-//    return $blocks;
-//}
-//
-///**
-// * Implements hook_block_view().
-// */
-//function dashboard_block_view($delta='') {
-//    $block = array();
-//    switch ($delta) {
-//        case 'second_header' :
-//            $block['content'] = theme("second_header");
-//            break;
-//        case 'dashboard_main' :
-//            $block['content'] = theme("dashboard_main");
-//            break;
-//        case 'news_footer' :
-//            $block['content'] = theme("news_footer");
-//            break;
-//        case 'first_header' :
-//            $block['content'] = theme("first_header");
-//            break;
-//    }
-//    return $block;
-//}
-//
-//function dashboard_theme() {
-//    return array(
-//        'dashboard' => array(
-//            'template' => 'dashboard',
-//        ),
-//        'first_header' => array(
-//            'template' => 'theme_tpl/first_header',
-//        ),
-//        'second_header' => array(
-//            'template' => 'theme_tpl/second_header',
-//        ),
-//        'dashboard_main' => array(
-//            'template' => 'theme_tpl/dashboard_main',
-//        ),
-//        'news_footer' => array(
-//            'template' => 'theme_tpl/news_footer',
-//        ),
-//    );
-//}
+
+function work_summary_call_back(){
+    $pageContent = '';
+    return $pageContent;
+}

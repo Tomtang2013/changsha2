@@ -27,7 +27,7 @@
     display: block;
     font-size: 40px;
     text-align: right;
-    width: 300px;
+    width: 350px;
     padding-right: 30px;
 }
 
@@ -61,7 +61,7 @@
 
 .service_design_header .div_right {
     background-color: transparent;
-    margin-top: 0px;
+    margin-right: 120px;
     padding-top: 50px;
     padding-left: 0px;
     float: right;
@@ -72,7 +72,7 @@
 .service_design_header .div_right span {
     background-color: #ffffff;
     padding:5px;
-    font-size: 26px;
+    font-size: 20px;
     clear:right;
     float: right;
 }
@@ -91,23 +91,24 @@
 
 #design_main{
     background-color: #ffffff;
-    padding-left: 300px;
-    padding-right:300px;
+    padding-left: 200px;
+/*    padding-right:250px;*/
     padding-top: 30px;
+/*    background: #ccc url(../images/footer/blackStripe.png);*/
 }
 
 #design_main .platform_item{
     float:left;
     background-image: url(../images/service/service_bg.jpg);
     background-size: cover;
-    width: 240px;
-    height:240px;
+    width: 335px;
+    height:300px;
     margin-top: 12px;
     font-size: 40px;
 }
 
 #design_main .platform_item .platform_item_content{
-    padding: 10px 10px 40px 10px;
+    padding: 10px 10px 90px 10px;
 }
 
 #design_main .platform_item hr{
@@ -125,14 +126,14 @@
     background-color: yellow;
     min-height: 20px;
     float:left;
-    width:30%;
+    width:340px;
 }
 
 #design_main .right{
     background-color: white;
     min-height: 20px;
     float:left;
-    width:70%;
+    width:689px;
 }
 
 #design_main .left .left_content{
@@ -151,4 +152,5 @@
     margin: auto;
     width: 90%;
     height: 300px;
+    padding-top: 10px;
 }

@@ -8,7 +8,7 @@
 </script>
 
 <div class="first_header">
-    <ul>
+    <ul style="margin-left: 91px;">
         <li> <a href="#">设计长沙</a></li>
         <li>|<a href="#">潇湘晨报设计中心</a> </li>
     </ul>
