@@ -6,7 +6,8 @@
  * Implementation of hook_init
  */
 function news_service_init() {
-    drupal_add_css(drupal_get_path('module', 'news_service') . '/css/service_platform.css', array('group' => CSS_DEFAULT, 'every_page' => TRUE));
+    drupal_add_library('system', 'ui.tabs');
+//    drupal_add_js( path_to_theme() .'/js/custom.js', array('weight' => 9));
 }
 
 /**
@@ -47,12 +48,18 @@ function news_service_menu() {
         'access arguments' => array('news_service'),
         'weight' => -47,
     );
+
+    $items['news_service/cooperation'] = array(
+        'title' => t('设计服务'),
+        'page callback' => 'news_service_call_back',
+        'access arguments' => array('news_service'),
+        'weight' => -47,
+    );
     return $items;
 }
 
 function news_service_call_back() {
     $pageContent = '1';
-    dd("aa");
     return $pageContent;
 }
 

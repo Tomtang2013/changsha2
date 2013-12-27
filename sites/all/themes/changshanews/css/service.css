@@ -1,0 +1,154 @@
+
+/***********************************/
+.service_design_header{
+    background-color: #ffffff;
+    background-size: cover;
+    height:515px;
+    width:100%;
+    margin: auto;
+}
+
+.service_design_header_bg{
+    background-image: url(../images/service/header_design.jpg);
+}
+
+.service_platform_header_bg{
+    background-image: url(../images/service/header_platform.jpg);
+}
+.service_design_header .ul_left {
+    background-color: transparent;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-left: 0px;
+    float: left;
+}
+.service_design_header .ul_left .active,.unactive {
+    background-color: transparent;
+    display: block;
+    font-size: 40px;
+    text-align: right;
+    width: 300px;
+    padding-right: 30px;
+}
+
+.service_design_header .ul_left .active {
+    background-color: yellow;
+    color:black;
+    text-decoration: none;
+}
+
+.service_design_header .ul_left .unactive a,a:visited{
+    background-color: transparent;
+    height: 100%;
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.service_design_header .ul_left .unactive a:hover,a:active{
+    background-color: transparent;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+#service_design_header .ul_left .active a,a:visited{
+    background-color: yellow;
+    background-color: transparent;
+    height: 100%;
+}
+
+
+
+.service_design_header .div_right {
+    background-color: transparent;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-left: 0px;
+    float: right;
+    color:#aaaaaa;
+    clear :right;
+}
+
+.service_design_header .div_right span {
+    background-color: #ffffff;
+    padding:5px;
+    font-size: 26px;
+    clear:right;
+    float: right;
+}
+/*.header_message{
+    float:right;
+    text-align: right;
+}
+
+.header_message p{
+     background-color: #ffffff;
+     margin:5px 5px 5px 5px;
+     padding:5px 5px 5px 5px;
+     font-size: 20px;
+     width: 100%;
+}*/
+
+#design_main{
+    background-color: #ffffff;
+    padding-left: 300px;
+    padding-right:300px;
+    padding-top: 30px;
+}
+
+#design_main .platform_item{
+    float:left;
+    background-image: url(../images/service/service_bg.jpg);
+    background-size: cover;
+    width: 240px;
+    height:240px;
+    margin-top: 12px;
+    font-size: 40px;
+}
+
+#design_main .platform_item .platform_item_content{
+    padding: 10px 10px 40px 10px;
+}
+
+#design_main .platform_item hr{
+    margin-left:20px;margin-right:20px;
+    height: 0px;
+}
+
+#design_main .platform_item .platform_item_detail{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+
+#design_main .left{
+    background-color: yellow;
+    min-height: 20px;
+    float:left;
+    width:30%;
+}
+
+#design_main .right{
+    background-color: white;
+    min-height: 20px;
+    float:left;
+    width:70%;
+}
+
+#design_main .left .left_content{
+    border-top:  1px solid silver;
+    width: 90%;
+    min-height: 20px;
+    margin: auto;
+    height: 300px;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+#design_main .right .right_content{
+    border-top:  1px solid silver;
+    min-height: 20px;
+    margin: auto;
+    width: 90%;
+    height: 300px;
+}

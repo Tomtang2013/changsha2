@@ -1,6 +1,7 @@
 <?php
     global $base_path;
 ?>
+
 <div class="news_footer">
     <div class="news_footer_contact">
         <span>联系方式</span>
@@ -10,6 +11,7 @@
         <span>邮箱：fm-bo@foxmail.com</span>
     </div>
     <div class="news_footer_partner">
+        <div>中南出版传媒集团</div>
         <div>潇湘晨报传媒经营有限公司</div>
         <div>潇湘晨报传品牌创意公司</div>
     </div>
