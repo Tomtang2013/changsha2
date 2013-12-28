@@ -38,21 +38,21 @@ function news_service_menu() {
     $items['news_service/platform'] = array(
         'title' => t('平台服务'),
         'page callback' => 'news_service_call_back',
-        'access arguments' => array('news_service'),
+         'access arguments' => array('dashboard'),
         'weight' => -47,
     );
 
     $items['news_service/design'] = array(
         'title' => t('设计服务'),
         'page callback' => 'news_service_call_back',
-        'access arguments' => array('news_service'),
+         'access arguments' => array('dashboard'),
         'weight' => -47,
     );
 
     $items['news_service/cooperation'] = array(
         'title' => t('设计服务'),
         'page callback' => 'news_service_call_back',
-        'access arguments' => array('news_service'),
+         'access arguments' => array('dashboard'),
         'weight' => -47,
     );
     return $items;

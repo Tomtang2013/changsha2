@@ -161,10 +161,12 @@
 }
 /***********************************/
 .dashboard_footer{
-    background: #222 url(../images/footer/blackStripe.png);
+/*    background: #222 url(../images/footer/blackStripe.png);*/
     height: 479px;
     color: #A7A7A7;
     clear:both;
+    background-color: #231915;
+
 /*    z-index: 888;*/
     position: relative;
     

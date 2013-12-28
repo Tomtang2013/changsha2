@@ -47,6 +47,28 @@ function dashboard_menu() {
         'access arguments' => array('dashboard'),
         'weight' => -47,
     );
+
+    $items['work/enviro'] = array(
+        'title' => t('环境未来'),
+        'page callback' => 'work_enviro_call_back',
+        'access arguments' => array('dashboard'),
+        'weight' => -47,
+    );
+
+    $items['about/company'] = array(
+        'title' => t('关于公司'),
+        'page callback' => 'about_company_call_back',
+        'access arguments' => array('dashboard'),
+        'weight' => -47,
+    );
+
+    $items['about/team'] = array(
+        'title' => t('关于团队'),
+        'page callback' => 'about_team_call_back',
+        'access arguments' => array('dashboard'),
+        'weight' => -47,
+    );
+    
     return $items;
 }
 
@@ -56,6 +78,21 @@ function dashboard_call_back() {
 }
 
 function work_summary_call_back(){
+    $pageContent = '';
+    return $pageContent;
+}
+
+function work_enviro_call_back(){
+    $pageContent = '';
+    return $pageContent;
+}
+
+function about_company_call_back(){
+    $pageContent = '';
+    return $pageContent;
+}
+
+function about_team_call_back(){
     $pageContent = '';
     return $pageContent;
 }
