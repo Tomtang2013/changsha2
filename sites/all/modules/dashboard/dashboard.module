@@ -68,6 +68,13 @@ function dashboard_menu() {
         'access arguments' => array('dashboard'),
         'weight' => -47,
     );
+
+    $items['about/memberdetail'] = array(
+        'title' => t('关于团队'),
+        'page callback' => 'about_memberdetail_call_back',
+        'access arguments' => array('dashboard'),
+        'weight' => -47,
+    );
     
     return $items;
 }
@@ -94,5 +101,10 @@ function about_company_call_back(){
 
 function about_team_call_back(){
     $pageContent = '';
+    return $pageContent;
+}
+
+function about_memberdetail_call_back(){
+     $pageContent = '';
     return $pageContent;
 }
