@@ -193,13 +193,10 @@
 
 .big_img{
     float:left;
-}
-
-.bgimg1{
-    background-image: url(../images/about/member/big/1.jpg);
-    width: 306px;
+     width: 306px;
     height: 444px;
 }
+
 
 .member_discrib{
      float:left;

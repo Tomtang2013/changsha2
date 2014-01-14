@@ -52,6 +52,7 @@
     width: 100%;
     background-color: yellow;
     height:100px;
+	background: url(../images/footer/whiteStripe.png);
 }
 
 .dashboard_main_logo{

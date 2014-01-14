@@ -75,7 +75,16 @@ function dashboard_menu() {
         'access arguments' => array('dashboard'),
         'weight' => -47,
     );
-    
+
+    $items['news/summary'] = array(
+        'title' => t('动态'),
+        'page callback' => 'news_summary_call_back',
+        'access arguments' => array('dashboard'),
+        'weight' => -47,
+    );
+
+
+
     return $items;
 }
 
@@ -84,27 +93,32 @@ function dashboard_call_back() {
     return $pageContent;
 }
 
-function work_summary_call_back(){
+function work_summary_call_back() {
     $pageContent = '';
     return $pageContent;
 }
 
-function work_enviro_call_back(){
+function work_enviro_call_back() {
     $pageContent = '';
     return $pageContent;
 }
 
-function about_company_call_back(){
+function about_company_call_back() {
     $pageContent = '';
     return $pageContent;
 }
 
-function about_team_call_back(){
+function about_team_call_back() {
     $pageContent = '';
     return $pageContent;
 }
 
-function about_memberdetail_call_back(){
-     $pageContent = '';
+function about_memberdetail_call_back() {
+    $pageContent = '';
+    return $pageContent;
+}
+
+function news_summary_call_back(){
+    $pageContent = '';
     return $pageContent;
 }

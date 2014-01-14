@@ -3,9 +3,10 @@
 }
 
 .work_summary_top{
-     background-color: #cccccc;
+     background-color: #eeeeee;
      min-height: 600px;
      padding-left: 188px;
+/*	 background: #eee url(../images/footer/whiteStripe.png);*/
 }
 
 #work_summary_left{
