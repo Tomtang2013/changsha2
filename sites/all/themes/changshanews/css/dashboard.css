@@ -1,3 +1,17 @@
+@font-face {
+       font-family: "fzlt";
+       font-style: normal;
+       font-weight: normal;
+       font-stretch: normal;
+       font-stretch: normal;
+       src: url("font/FZLTXHK.TTF") format("opentype");
+   }
+
+body{
+/*    display:none;*/
+    font-family: fzlt;
+}
+
 .dashboard-page{
      background-color: #494949!Important;
 }
@@ -230,4 +244,11 @@
     width: 25px;
     height: 25px;
     
+}
+
+
+/**********************************************/
+
+.news_item{
+    background-color: yellow;
 }

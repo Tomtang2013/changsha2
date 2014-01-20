@@ -79,13 +79,15 @@
 
 /***************************************************************/
 
-.work_enviro_header{
-     background-image: url(../images/work/enviro/top.jpg);
-      background-color: #FFFFFF;
-    background-size: cover;
-    height: 515px;
-    margin: auto;
+.work_enviro_header img{
+/*     background-image: url(../images/work/enviro/top.jpg);*/
+/*    background-color: #FFFFFF;*/
+/*    background-size: cover;*/
+/*    max-height: 574px;*/
+/*    max-width: 1024px;*/
+/*    margin: auto;*/
     width: 100%;
+    margin-top: -12px;
 }
 
 .work_enviro_main_content{

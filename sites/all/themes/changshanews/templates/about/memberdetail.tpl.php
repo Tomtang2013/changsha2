@@ -20,7 +20,6 @@ if($nid){
     $url = file_create_url($member->m_b_image);
     $url = parse_url($url);
     $path = $url['path'];
-    dd($path);
 }
 
 
