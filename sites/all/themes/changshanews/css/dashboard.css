@@ -34,6 +34,7 @@ body{
 .first_header ul  {
    padding: 20px 10px 10px 100px!Important;
    width: auto;
+   margin-top:10px;
    display:inline-block;
 }
 
@@ -72,7 +73,7 @@ body{
 .dashboard_main_logo{
     width:106px;
     height:86px;
-    margin-left: 200px;
+    margin-left: 120px;
     margin-top: -130px;
 }
 
@@ -177,7 +178,8 @@ body{
 /***********************************/
 .dashboard_footer{
 /*    background: #222 url(../images/footer/blackStripe.png);*/
-    height: 479px;
+/*    height: 479px;*/
+    height:200px;
     color: #A7A7A7;
     clear:both;
     background-color: #231915;
@@ -191,7 +193,7 @@ body{
 .dashboard_footer .news_footer_contact{
     font-size: 12px;
     color:#8b8b8b;
-    padding : 60px 100px 30px 202px;
+    padding : 60px 100px 30px 122px;
     width: 38%;
     float: left;
 }
@@ -205,7 +207,7 @@ body{
     color:#8b8b8b;
     float: left;
     padding-top : 60px ;
-    margin-left: 20%;
+    margin-left: 347px;
     text-align: right;
 }
 
@@ -213,7 +215,7 @@ body{
     clear:left;
     font-size: 12px;
     color:#8b8b8b;
-    padding : 0px 20px 0px 203px;
+    padding : 0px 20px 0px 122px;
     float: left;
    
 }

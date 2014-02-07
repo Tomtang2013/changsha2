@@ -55,7 +55,7 @@ foreach ($result as $row) {
             </div>
     </div>
      <div class="work_imgs" style="background-color: #EEEEEE;">
-        <div style="float: left;width: 600px;padding-right: 31px;" >
+        <div style="float: left;width: 640px;padding-right: 31px;" >
             <div style="height:20px;background-color: yellow;"></div>
             <div style="min-height:600px;background-color: #ffffff;">
                 <ul style="list-style-type:none;padding-left: 0px;margin-top: 0px;">
@@ -68,7 +68,7 @@ foreach ($result as $row) {
                 </ul>
             </div>
         </div>
-        <div style="float: left;width: 400px;" >
+        <div style="float: left;width: 440px;" >
              <div style="height:20px;background-color: yellow;"></div>
              <div style="min-height:600px;background-color: #ffffff;">
                  <ul class="bxslider" style="margin:0px;">

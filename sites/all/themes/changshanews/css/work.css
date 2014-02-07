@@ -5,8 +5,7 @@
 .work_summary_top{
      background-color: #eeeeee;
      min-height: 600px;
-     padding-left: 188px;
-/*	 background: #eee url(../images/footer/whiteStripe.png);*/
+     padding-left: 110px;
 }
 
 #work_summary_left{
@@ -38,7 +37,7 @@
 }
 .work_imgs{
      clear:left;
-     padding-left: 200px;
+     padding-left: 120px;
      background-color: white;
      padding-top:20px;
 }

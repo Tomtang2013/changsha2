@@ -58,7 +58,7 @@ if($nid){
             </div>
     </div>
      <div class="work_imgs" style="background-color: #EEEEEE;padding-bottom:150px;" >
-        <div style="width: 1024px;" >
+        <div style="width: 1104px;" >
             <div style="height:20px;background-color: yellow;"></div>
             <div style="min-height:600px;">
                 <div style="height:50px;">
@@ -73,7 +73,7 @@ if($nid){
                 <div id="sliderFrame">
                     <ul class="bxslider">
                         <?php foreach($paths as $path): ?>
-                           <li> <img src="<?php print $path; ?>" /></li>
+                           <li> <img src="<?php print $path; ?>" style="min-width:1104px;" /></li>
                         <?php endforeach?>
                    </ul>
             	</div>

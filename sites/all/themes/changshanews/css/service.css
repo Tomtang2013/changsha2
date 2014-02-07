@@ -15,6 +15,7 @@
 .service_platform_header_bg{
     background-image: url(../images/service/header_platform.jpg);
 }
+
 .service_design_header .ul_left {
     background-color: transparent;
     margin-top: 0px;
@@ -27,7 +28,7 @@
     display: block;
     font-size: 40px;
     text-align: right;
-    width: 350px;
+    width: 277px;
     padding-right: 30px;
 }
 
@@ -91,24 +92,22 @@
 
 #design_main{
     background-color: #ffffff;
-    padding-left: 200px;
-/*    padding-right:250px;*/
+    padding-left: 120px;
     padding-top: 30px;
-/*    background: #ccc url(../images/footer/blackStripe.png);*/
 }
 
 #design_main .platform_item{
     float:left;
     background-image: url(../images/service/service_bg.jpg);
     background-size: cover;
-    width: 335px;
-    height:300px;
+    width: 362px;
+    height:320px;
     margin-top: 12px;
     font-size: 40px;
 }
 
 #design_main .platform_item .platform_item_content{
-    padding: 10px 10px 90px 10px;
+    padding: 10px 10px 110px 10px;
 }
 
 #design_main .platform_item hr{
@@ -126,14 +125,14 @@
     background-color: yellow;
     min-height: 20px;
     float:left;
-    width:340px;
+    width:400px;
 }
 
 #design_main .right{
     background-color: white;
     min-height: 20px;
     float:left;
-    width:689px;
+    width:710px;
 }
 
 #design_main .left .left_content{
