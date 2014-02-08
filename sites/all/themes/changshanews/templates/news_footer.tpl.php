@@ -20,7 +20,7 @@
     <div class="friend_link">
         <span class="footer_item">友情链接</span>
         <span><a href=""><img class="friend_link_img" style=" width: 50px;height: 29px;" src="<?php print $base_path.drupal_get_path('theme', 'changshanews'); ?>/images/footer/group01.png" alt=""></a></span>
-        <span><a href=""><img class="friend_link_img" style=" width: 69px;height: 29px;" src="<?php print $base_path.drupal_get_path('theme', 'changshanews'); ?>/images/footer/group02.png" alt=""></a></span>
+        <span><a href=""><img class="friend_link_img" style=" width: 80px;height: 29px;" src="<?php print $base_path.drupal_get_path('theme', 'changshanews'); ?>/images/footer/group02.png" alt=""></a></span>
     </div>
     <div class="new_media">
         <span class="footer_item">新媒体</span>
