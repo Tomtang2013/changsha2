@@ -179,11 +179,11 @@ body{
 .dashboard_footer{
 /*    background: #222 url(../images/footer/blackStripe.png);*/
 /*    height: 479px;*/
-    height:200px;
+    height:250px;
     color: #A7A7A7;
     clear:both;
+    padding-bottom: 40px;
     background-color: #231915;
-
 /*    z-index: 888;*/
     position: relative;
     
