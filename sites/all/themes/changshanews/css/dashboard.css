@@ -194,7 +194,7 @@ body{
     font-size: 12px;
     color:#8b8b8b;
     padding : 60px 100px 30px 122px;
-    width: 38%;
+    width: 510px;
     float: left;
 }
 
@@ -225,8 +225,6 @@ body{
 }
 
 .dashboard_footer .friend_link .friend_link_img{
-    width: 50px;
-    height: 25px;
     vertical-align:top;
 }
 
@@ -243,11 +241,14 @@ body{
 
 .dashboard_footer .new_media .new_media_img{
     vertical-align:top;
-    width: 25px;
-    height: 25px;
+    width: 29px;
+    height: 29px;
     
 }
 
+.footer_item{
+    color:yellow;
+}
 
 /**********************************************/
 
