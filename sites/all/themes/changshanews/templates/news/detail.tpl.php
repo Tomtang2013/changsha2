@@ -78,7 +78,7 @@ if($nid){
                    </ul>
             	</div>
             </div>
-            <div>
+            <div style="width:700px;">
                 <?php  print nl2br ($news->n_body); ?>
             </div>
             </div>
