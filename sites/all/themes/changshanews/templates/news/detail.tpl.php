@@ -61,7 +61,7 @@ if($nid){
         <div style="width: 1104px;" >
             <div style="height:20px;background-color: yellow;"></div>
             <div style="min-height:600px;">
-                <div style="height:30px;">
+                <div style="height:35px;">
                     <div style="float:left;font-size: 20px;"><?php print $news->title;?></div>
                     <div style="float:right;">
                         <span style="padding-right:20px;">发布于：<?php print $news->n_public_date;?></span>
