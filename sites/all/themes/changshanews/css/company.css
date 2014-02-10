@@ -66,8 +66,8 @@
 
 .work_about_company_content{
     clear:both;
-    width: 1026px;
-    margin-left:198px;
+    width: 926px;
+    margin-left:330px;
     padding-top: 50px;
 }
 .work_about_company_content_title{
@@ -90,29 +90,30 @@
 .work_about_company_logo img{
     background-size: cover;
     float:left;
-    padding:50px 0px 100px 50px;
+    padding:50px 10px 50px 30px;
+    min-width: 240px;
 }
 
 .log1{
     width: 209px;
     height: 73px;
     margin: auto;
-    margin-right: 141px;
+/*    margin-right: 141px;*/
 }
 
 .log2{
     width: 150px;
-    height: 130px;
-    margin-right: 200px;
+    height: 180px;
+/*    margin-right: 200px;*/
 }
 .log3{
     width: 180px;
     height: 120px;
-    margin-right: 170px;
+/*    margin-right: 170px;*/
 }
 .work_about_company_text_area{
     float:left;
-    padding: 50px 50px 50px 0px;
+    padding: 10px 10px 10px 20px;
     font-size: 12px;
     max-width: 550px;
     line-height: 28px;
@@ -120,8 +121,8 @@
 
 .work_about_team_main{
     clear:both;
-    width: 826px;
-    margin-left:398px;
+    width: 926px;
+    margin-left:330px;
 }
 .team_member_list{
  padding-bottom: 80px;
@@ -137,13 +138,13 @@
 
 .team_member_img{
     float:left;
-    padding-top: 15px;
-    padding-right: 15px;
+    padding-top: 45px;
+    padding-right: 48px;
 }
 
 .team_member_imglast{
     float:left;
-    padding-top: 15px;
+    padding-top: 45px;
     padding-right: 0px;
 }
 .member_name{
