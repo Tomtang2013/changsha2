@@ -8,12 +8,19 @@ $news = $base_path .'news/summary';
 
 <script type="text/javascript">
     jQuery(function(){
-
+        jQuery('.nav_link').find('li').mouseover( function(){
+            jQuery(this).css("background-color","yellow");
+            jQuery(this).find('a').css("color","black");
+        });
+        jQuery('.nav_link').find('li').mouseout( function(){
+            jQuery(this).css("background-color","black");
+            jQuery(this).find('a').css("color","white");
+        });
     });
 </script>
 
 <div class="first_header">
-        <ul style="margin-left: 10px;">
+        <ul style="margin-left: 10px;margin-top:20px;">
             <li> <a href="<?php print $base_path?>">设计长沙</a></li>
             <li>|<a href="#">潇湘晨报品牌创意中心</a> </li>
         </ul>
@@ -22,6 +29,6 @@ $news = $base_path .'news/summary';
             <li> <a href="<?php print $about_company_path?>">关于</a></li>
             <li><a href="<?php print $news?>">动态</a> </li>
             <li><a href="<?php print $work_summary?>">工作</a> </li>
-            <li><a href="<?php print $news_service?>">服务</a> </li>
+            <li style="border-right:1px solid #333;"><a href="<?php print $news_service?>">服务</a> </li>
         </ul>
 </div>

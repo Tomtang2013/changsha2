@@ -28,11 +28,11 @@ body{
 .first_header{
     width: 100%;
     background-color: black;
-    height:80px;
+    height:60px;
 }
 
 .first_header ul  {
-   padding: 20px 10px 10px 100px!Important;
+   padding: 0px 10px 10px 100px;
    width: auto;
    margin-top:10px;
    display:inline-block;
@@ -42,7 +42,6 @@ body{
     color:#d7d7d7;
     list-style:none;
     float:left;
-   
 }
 
 .first_header ul li a{
@@ -60,13 +59,23 @@ body{
     float:right;
     color:#d7d7d7;
     font-size: 18px;
-    margin-right:100px
+    margin-right:100px;
+    padding-top : 0px!important;
+    margin-top : 0px!important;
 }
+
+.nav_link li{
+    height:40px;
+    width: 60px;
+    border-left:1px solid #333;
+    padding-top: 20px;
+}
+
 
 .sec_header{
     width: 100%;
     background-color: yellow;
-    height:100px;
+    height:80px;
 	background: url(../images/footer/whiteStripe.png);
 }
 
