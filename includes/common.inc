@@ -341,6 +341,16 @@ function _drupal_default_html_head() {
       'content' => 'Drupal ' . $version . ' (http://drupal.org)',
     ),
   );
+
+   $elements['system_meta_viewport'] = array(
+    '#type' => 'html_tag',
+    '#tag' => 'meta',
+    '#attributes' => array(
+      'name' => 'viewport',
+      'content' => 'width=1350, initial-scale=1, maximum-scale=1',
+    ),
+  );
+   
   // Also send the generator in the HTTP header.
   $elements['system_meta_generator']['#attached']['drupal_add_http_header'][] = array('X-Generator', $elements['system_meta_generator']['#attributes']['content']);
   return $elements;
