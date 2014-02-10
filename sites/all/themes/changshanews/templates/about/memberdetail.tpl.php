@@ -16,10 +16,14 @@ if($nid){
     $member->m_desc = $node->field_m_desc['und'][0]['value'];
     $member->m_type = $node->field_m_type['und'][0]['value'];
 
+    if(empty($member->m_b_image)){
+        $path = $theme_path.'/images/no-image-big.png';
+    }    else {
+        $url = file_create_url($member->m_b_image);
+        $url = parse_url($url);
+        $path = $url['path'];
+    }
     
-    $url = file_create_url($member->m_b_image);
-    $url = parse_url($url);
-    $path = $url['path'];
 }
 
 

@@ -89,9 +89,17 @@ uasort($experts, "compareItems");
                 <div class="team_member_imgs">
                    <?php $i=0; foreach($consultants as $consultant):
                     $i++;
-                    $url = file_create_url($consultant->m_s_image);
-                    $url = parse_url($url);
-                    $path = $url['path'];
+                    $url = '';
+                    if(empty($consultant->m_s_image)){
+                        $path = $theme_path.'/images/no-image.png';
+                    } else {
+                        $url = $consultant->m_s_image;
+                        $url = file_create_url($url);
+                        $url = parse_url($url);
+                        $path = $url['path'];
+                    }
+                    
+                   
                 ?>
                 <?php if($i%4 == 0) :?>
                     <div class="team_member_imglast ">
