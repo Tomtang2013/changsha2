@@ -26,9 +26,9 @@ $news = $base_path .'news/summary';
         </ul>
 
          <ul class="nav_link">
-            <li> <a href="<?php print $about_company_path?>">关于</a></li>
-            <li><a href="<?php print $news?>">动态</a> </li>
-            <li><a href="<?php print $work_summary?>">工作</a> </li>
-            <li style="border-right:1px solid #333;"><a href="<?php print $news_service?>">服务</a> </li>
+            <li> <a  style="padding-left:12px;" href="<?php print $about_company_path?>">关于</a></li>
+            <li><a  style="padding-left:12px;" href="<?php print $news?>">动态</a> </li>
+            <li><a  style="padding-left:12px;" href="<?php print $work_summary?>">工作</a> </li>
+            <li style="border-right:1px solid #333;"><a  style="padding-left:12px;"  href="<?php print $news_service?>">服务</a> </li>
         </ul>
 </div>

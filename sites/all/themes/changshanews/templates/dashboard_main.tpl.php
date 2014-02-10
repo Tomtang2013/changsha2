@@ -10,6 +10,14 @@
             jQuery('#dashboard_img2').parallax("50%", 0.1);
             jQuery('#dashboard_img3').parallax("50%", 0.1);
             jQuery('#dashboard_img4').parallax("50%", 0.3);
+
+            jQuery('.case ').find('a').mouseover( function(){
+                  jQuery(this).css("background-color",'rgba(255, 255, 0, 0.75)');
+            });
+
+            jQuery('.case ').find('a').mouseout( function(){
+                  jQuery(this).css("background-color",'rgba(255, 255, 255, 0.75)');
+            });
     });
 </script>
 
