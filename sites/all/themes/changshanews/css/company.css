@@ -88,34 +88,31 @@
 }
 
 .work_about_company_logo img{
-    background-size: cover;
     float:left;
-    padding:50px 10px 50px 30px;
-    min-width: 240px;
+    padding:50px 60px 50px 60px;
 }
 
 .log1{
-    width: 209px;
-    height: 73px;
-    margin: auto;
+    width: 100px;
+/*    height: 73px;*/
 /*    margin-right: 141px;*/
 }
 
 .log2{
-    width: 150px;
-    height: 180px;
+    width: 100px;
+/*    height: 180px;*/
 /*    margin-right: 200px;*/
 }
 .log3{
-    width: 180px;
-    height: 120px;
+    width: 100px;
+/*    height: 120px;*/
 /*    margin-right: 170px;*/
 }
 .work_about_company_text_area{
     float:left;
     padding: 10px 10px 10px 20px;
     font-size: 12px;
-    max-width: 550px;
+    max-width: 590px;
     line-height: 28px;
 }
 

@@ -203,7 +203,7 @@ body{
 .dashboard_footer .news_footer_contact{
     font-size: 12px;
     color:#8b8b8b;
-    padding : 60px 100px 30px 122px;
+    padding : 60px 100px 30px 198px;
     width: 510px;
     float: left;
 }
@@ -217,7 +217,7 @@ body{
     color:#8b8b8b;
     float: left;
     padding-top : 60px ;
-    margin-left: 347px;
+    margin-left: 286px;
     text-align: right;
 }
 
@@ -225,7 +225,7 @@ body{
     clear:left;
     font-size: 12px;
     color:#8b8b8b;
-    padding : 0px 20px 0px 122px;
+    padding : 0px 20px 0px 198px;
     float: left;
    
 }
