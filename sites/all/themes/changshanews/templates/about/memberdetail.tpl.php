@@ -8,7 +8,7 @@ $nid = arg(2);
 if($nid){
     $node = node_load($nid);
     $member = new stdClass();
-    $member->nid = $row->nid;
+    $member->nid = $nid;
     $member->m_name = $node->field_m_name['und'][0]['value'];
     $member->m_s_image = $node->field_image['und'][0]['uri'];
     $member->m_b_image = $node->field_m_b_image['und'][0]['uri'];
