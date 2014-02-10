@@ -15,7 +15,7 @@
     <div class="news_footer_partner">
         <div>中南出版传媒集团</div>
         <div>潇湘晨报传媒经营有限公司</div>
-        <div>潇湘晨报品牌创意公司</div>
+        <div>潇湘晨报品牌创意中心</div>
     </div>
     <div class="friend_link">
         <span class="footer_item">友情链接</span>

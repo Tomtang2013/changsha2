@@ -26,7 +26,7 @@
 .service_design_header .ul_left .active,.unactive {
     background-color: transparent;
     display: block;
-    font-size: 40px;
+    font-size: 20px;
     text-align: right;
     width: 277px;
     padding-right: 30px;
@@ -103,7 +103,7 @@
     width: 362px;
     height:320px;
     margin-top: 12px;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 #design_main .platform_item .platform_item_content{

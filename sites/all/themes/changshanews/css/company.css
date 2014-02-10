@@ -13,7 +13,7 @@
 .work_about .ul_left .active,.unactive {
     background-color: transparent;
     display: block;
-    font-size: 40px;
+    font-size: 20px;
     text-align: right;
     width: 277px;
     padding-right: 30px;
@@ -59,7 +59,7 @@
 
 .work_about .div_right span {
     padding:5px 0px 5px 5px;
-    font-size: 40px;
+    font-size: 20px;
     clear:right;
     float: right;
 }

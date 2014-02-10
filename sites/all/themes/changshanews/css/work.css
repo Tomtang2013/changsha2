@@ -10,7 +10,7 @@
 
 #work_summary_left{
     float:left;
-    font-size: 40px;
+    font-size: 20px;
     margin: 10px;
     padding-top: 50px;
     color:black;
@@ -28,7 +28,7 @@
     background-color: yellow;
     clear: right;
     float: right;
-    font-size: 26px;
+    font-size: 20px;
     padding: 5px;
 }
 
