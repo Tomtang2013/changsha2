@@ -38,7 +38,18 @@ $theme_path = $base_path . drupal_get_path('theme', 'changshanews');
             </div>
             <div style="clear:both;"></div>
         </div>
-
+        <div class="work_about_company_content_title"><p>潇湘晨报品牌创意中心</p></div>
+        <div class="work_about_company_content_text">
+            <div class="work_about_company_logo " >
+                <img class="log3"  src="<?php print $theme_path ?>/images/about/logo3.png"  alt=""/>
+            </div>
+            <div class="work_about_company_text_area">
+                <p>潇湘晨报品牌创意中心隶属于《潇湘晨报》经营有限公司，是潇湘晨报全系全媒体自身品牌宣传及广告客户需要而设立的核心创意机构。十余年来，致力于媒体传播的视觉化行销与实际广告效果的研究和实践，并在此领域持续领先。丰富而宝贵的经验使本中心的出品更有成效和更赋创意。并能够在快速发展的未来市场的挑战下，为客户提供更精准、更系统、更具备传播影响力的专属定制方案。</p>
+                <p>潇湘晨报品牌创意中心是一家提供全方位策划、设计与创意服务的机构，具备各类实践经验与专业能力，能够应对纷繁多样的要求，并提供横跨多重市场的服务，然而我们仍然以对不同环境的适应能力以及对客户需求的透彻理解能力而引以为傲。服务领域涵盖：媒介传播渠道整合、企业CIS形象识别系统、品牌营销、大型活动会展及视觉设计表现等服务。 2011-2012年度连续蝉联中国国际艾菲奖。
+                </p>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
         <div class="work_about_company_content_title"><p>设计长沙</p></div>
         <div class="work_about_company_content_text">
             <div class="work_about_company_logo " >
@@ -52,18 +63,7 @@ $theme_path = $base_path . drupal_get_path('theme', 'changshanews');
             <div style="clear:both;"></div>
         </div>
 
-        <div class="work_about_company_content_title"><p>潇湘晨报品牌创意中心</p></div>
-        <div class="work_about_company_content_text">
-            <div class="work_about_company_logo " >
-                <img class="log3"  src="<?php print $theme_path ?>/images/about/logo3.png"  alt=""/>
-            </div>
-            <div class="work_about_company_text_area">
-                <p>潇湘晨报品牌创意中心隶属于《潇湘晨报》经营有限公司，是潇湘晨报全系全媒体自身品牌宣传及广告客户需要而设立的核心创意机构。十余年来，致力于媒体传播的视觉化行销与实际广告效果的研究和实践，并在此领域持续领先。丰富而宝贵的经验使本中心的出品更有成效和更赋创意。并能够在快速发展的未来市场的挑战下，为客户提供更精准、更系统、更具备传播影响力的专属定制方案。</p>
-                <p>潇湘晨报品牌创意中心是一家提供全方位策划、设计与创意服务的机构，具备各类实践经验与专业能力，能够应对纷繁多样的要求，并提供横跨多重市场的服务，然而我们仍然以对不同环境的适应能力以及对客户需求的透彻理解能力而引以为傲。服务领域涵盖：媒介传播渠道整合、企业CIS形象识别系统、品牌营销、大型活动会展及视觉设计表现等服务。 2011-2012年度连续蝉联中国国际艾菲奖。
-                </p>
-            </div>
-            <div style="clear:both;"></div>
-        </div>
+        
         <div style="clear:both;"></div>
     </div>
 </div>
