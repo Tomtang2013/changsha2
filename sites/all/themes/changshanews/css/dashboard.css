@@ -75,9 +75,9 @@ body{
 
 .sec_header{
     width: 100%;
-    background-color: yellow;
+/*    background-color: yellow;*/
     height:80px;
-	background: url(../images/footer/whiteStripe.png);
+    background: url(../images/header/header.jpg);
 }
 
 .dashboard_main_logo{

@@ -42,7 +42,7 @@ $coo_path = $base_path . 'news_service/cooperation';
                 <p>为自身品牌影响力建设</p>
             </div>
         </div>
-        <div class="platform_item" style="margin-right:12px;margin-left:12px;">
+        <div class="platform_item" style="margin-right:64px;margin-left:64px;">
             <div class="platform_item_content">经营平台</div>
             <hr>
             <div class="platform_item_detail">
