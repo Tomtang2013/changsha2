@@ -204,7 +204,7 @@ body{
     font-size: 12px;
     color:#8b8b8b;
     padding : 60px 100px 30px 122px;
-    width: 510px;
+/*    width: 510px;*/
     float: left;
 }
 
@@ -217,7 +217,7 @@ body{
     color:#8b8b8b;
     float: left;
     padding-top : 60px ;
-    margin-left: 361px;
+    margin-left: 335px;
     text-align: right;
 }
 
