@@ -103,11 +103,11 @@
     width: 330px;
     height:330px;
     margin-top: 12px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #design_main .platform_item .platform_item_content{
-    padding: 10px 10px 110px 10px;
+    padding: 10px 10px 110px 18px;
 }
 
 #design_main .platform_item hr{
@@ -116,10 +116,13 @@
 }
 
 #design_main .platform_item .platform_item_detail{
-    font-size: 12px;
+    font-size: 16px;
     margin-left: 20px;
 }
 
+.platform_item_detail p{
+    margin:0 0 0.2em;
+}
 
 #design_main .left{
     background-color: yellow;
