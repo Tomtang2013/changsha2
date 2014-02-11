@@ -1,6 +1,22 @@
 <?php
 global $base_path;
-$theme_path = $base_path.drupal_get_path('theme', 'changshanews');
+$theme_path = $base_path.drupal_get_path('theme', 'changshaworks');
+$work_detail_path = $base_path . "work/detail/";
+
+$result = db_query("SELECT nid FROM node WHERE type = :type", array(':type' => 'work'))->fetchAll();
+$works_list = array();
+
+foreach ($result as $row) {
+    $node = node_load($row->nid);
+    $works = new stdClass();
+    $works->nid = $row->nid;
+    $works->title = $node->title;
+    $url = file_create_url($node->field_w_s_image['und'][0]['uri']);
+    $url = parse_url($url);
+    $works->path = $url['path'];
+    $works_list[] = $works;
+}
+
 
 ?>
 
@@ -23,18 +39,17 @@ $theme_path = $base_path.drupal_get_path('theme', 'changshanews');
    
     <div class="work_imgs">
         <div style="margin-top: -330px;width: 100%" >
-            <div class="div_img div_img_wp"><a href="" ></a></div>
-            <div class="div_img div_img_yg"><a href="" ></a></div>
-            <div class="div_img div_img_ditan"><a href="" ></a></div>
-            <div class="div_img div_img_gyds"><a href="" ></a></div>
-            <div class="div_img div_img_hjy"><a href="" ></a></div>
-            <div class="div_img div_img_wp"><a href="" ></a></div>
-<!--            <a href="" ><image class="work_img" src="<?php print $theme_path;?>/images/work/summary/wp.jpg" /></a>
-            <a href=""style="margin-right:13px;margin-left:13px;"><image class="work_img" src="<?php print $theme_path;?>/images/work/summary/yg.jpg" /></a>
-            <a href=""><image class="work_img" src="<?php print $theme_path;?>/images/work/summary/ditan.jpg" /></a>
-            <a style="clear:left;" href=""><image class="work_img" src="<?php print $theme_path;?>/images/work/summary/gyds.jpg" /></a>
-            <a href=""style="margin-right:13px;margin-left:13px;"><image class="work_img" src="<?php print $theme_path;?>/images/work/summary/hjy.jpg" /></a>
-            <a href=""><image class="work_img" src="<?php print $theme_path;?>/images/work/summary/wp.jpg" /></a>-->
+            <?php foreach($works_list as $work) :?>
+                <?php if($i%3 == 0) :?>
+                    <div class="div_img ">
+                <?php else:?>
+                    <div class="div_img">
+                <?php endif?>
+                     <a href=<?php print $work_detail_path.$work->nid ?>"" >
+                         <img src="<?php print $work->path; ?>" />
+                     </a>
+                 </div>
+            <?php endforeach; ?>
         </div>
         <div style="clear:both"></div>
     </div>
