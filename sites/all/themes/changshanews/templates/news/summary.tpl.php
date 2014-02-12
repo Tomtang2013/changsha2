@@ -36,17 +36,18 @@ foreach ($result as $row) {
         jQuery('.bx-pager-link').text("");
         jQuery('.bx-pager-link').css("background-color","yellow");
         jQuery('.bx-pager-link').css("margin-right","10px");
-        jQuery('.bx-default-pager').css("top","540px");
+        jQuery('.bx-default-pager').css("top","340px");
+
 //        jQuery('.bx-controls').css('top','640px');
        
 
-        jQuery('.bx-wrapper').find('img').css('min-height','600px');
+        jQuery('.bx-wrapper').find('img').css('min-height','400px');
     });
 </script>
 
 <div>
 <div id="work_summary_main" class="work_summary_main">
-    <div class="work_summary_top" style="min-height: 300px;">
+    <div class="work_summary_top" style="min-height: 250px;">
             <div id="work_summary_left">动态</div>
             <div id="work_summary_right">
                 <span>CAREFULLY OBSERVE LIFE</span>
@@ -55,9 +56,9 @@ foreach ($result as $row) {
             </div>
     </div>
      <div class="work_imgs" style="background-color: #EEEEEE;">
-        <div style="float: left;width: 640px;padding-right: 31px;" >
+        <div style="float: left;width: 600px;padding-right: 31px;" >
             <div style="height:20px;background-color: yellow;"></div>
-            <div style="min-height:600px;background-color: #ffffff;">
+            <div style="min-height:400px;background-color: #ffffff;">
                 <ul style="list-style-type:none;padding-left: 0px;margin-top: 0px;">
                 <?php foreach($news_list as $news):?>
                        <li style="padding:10px;">
@@ -68,9 +69,9 @@ foreach ($result as $row) {
                 </ul>
             </div>
         </div>
-        <div style="float: left;width: 440px;" >
+        <div style="float: left;width: 409px;" >
              <div style="height:20px;background-color: yellow;"></div>
-             <div style="min-height:600px;background-color: #ffffff;">
+             <div style="min-height:400px;background-color: #ffffff;">
                  <ul class="bxslider" style="margin:0px;">
                         <?php foreach($paths as $path): ?>
                            <li> <img src="<?php print $path; ?>" /></li>

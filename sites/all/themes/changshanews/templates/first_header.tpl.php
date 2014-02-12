@@ -20,12 +20,12 @@ $news = $base_path .'news/summary';
 </script>
 
 <div class="first_header">
-        <ul style="margin-left: 10px;margin-top:20px;">
+        <ul style="margin-left: 50px;margin-top:20px;">
             <li> <a href="<?php print $base_path?>">设计长沙</a></li>
             <li>|<a href="#">潇湘晨报品牌创意中心</a> </li>
         </ul>
 
-         <ul class="nav_link">
+         <ul class="nav_link" style="padding-right:50px">
             <li> <a  style="padding-left:12px;" href="<?php print $about_company_path?>">关于</a></li>
             <li><a  style="padding-left:12px;" href="<?php print $news?>">动态</a> </li>
             <li><a  style="padding-left:12px;" href="<?php print $work_summary?>">工作</a> </li>

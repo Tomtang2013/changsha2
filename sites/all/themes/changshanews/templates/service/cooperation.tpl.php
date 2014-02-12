@@ -70,6 +70,6 @@ $coo_path = $base_path . 'news_service/cooperation';
             </div>
         </div>
     </div>
-    <div style="clear:both;padding-bottom: 120px;"></div>
+    <div style="clear:both;padding-bottom: 50px;"></div>
 </div>
 

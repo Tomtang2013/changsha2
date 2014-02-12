@@ -43,7 +43,7 @@ $coo_path = $base_path . 'news_service/cooperation';
                 <p>资源有效精准投放</p>
             </div>
         </div>
-        <div class="platform_item" style="margin-right:12px;margin-left:12px;">
+        <div class="platform_item" style="margin-right:24px;margin-left:24px;">
             <div class="platform_item_content">企业顾问</div>
             <hr>
             <div class="platform_item_detail">
@@ -70,7 +70,7 @@ $coo_path = $base_path . 'news_service/cooperation';
             </div>
         </div>
 
-        <div class="platform_item" style="margin-right:12px;margin-left:12px;">
+        <div class="platform_item" style="margin-right:24px;margin-left:24px;">
             <div class="platform_item_content">视觉创意</div>
             <hr>
             <div class="platform_item_detail">
@@ -88,6 +88,6 @@ $coo_path = $base_path . 'news_service/cooperation';
             </div>
         </div>
     </div>
-    <div style="clear:both;padding-bottom: 120px;"></div>
+    <div style="clear:both;padding-bottom: 50px;"></div>
 </div>
 

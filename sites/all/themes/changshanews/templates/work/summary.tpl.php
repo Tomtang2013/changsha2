@@ -45,7 +45,7 @@ foreach ($result as $row) {
                 <?php else:?>
                     <div class="div_img">
                 <?php endif?>
-                     <a href=<?php print $work_detail_path.$work->nid ?>"" >
+                     <a href="<?php print $work_detail_path.$work->nid ?>" >
                          <img src="<?php print $work->path; ?>" />
                      </a>
                  </div>

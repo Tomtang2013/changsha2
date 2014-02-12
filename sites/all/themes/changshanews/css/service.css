@@ -62,7 +62,7 @@
 
 .service_design_header .div_right {
     background-color: transparent;
-    margin-right: 112px;
+    margin-right: 156px;
     padding-top: 50px;
     padding-left: 0px;
     float: right;
@@ -76,6 +76,7 @@
     font-size: 20px;
     clear:right;
     float: right;
+    letter-spacing:4px;
 }
 /*.header_message{
     float:right;
@@ -92,7 +93,7 @@
 
 #design_main{
     background-color: #ffffff;
-    padding-left: 120px;
+    padding-left: 158px;
     padding-top: 30px;
 }
 
@@ -102,7 +103,7 @@
     background-size: cover;
     width: 330px;
     height:330px;
-    margin-top: 12px;
+    margin-top: 24px;
     font-size: 30px;
 }
 
@@ -128,14 +129,14 @@
     background-color: yellow;
     min-height: 20px;
     float:left;
-    width:400px;
+    width:360px;
 }
 
 #design_main .right{
     background-color: white;
     min-height: 20px;
     float:left;
-    width:710px;
+    width:678px;
 }
 
 #design_main .left .left_content{

@@ -42,6 +42,7 @@ body{
     color:#d7d7d7;
     list-style:none;
     float:left;
+    font-size: 14px;
 }
 
 .first_header ul li a{
@@ -203,7 +204,7 @@ body{
 .dashboard_footer .news_footer_contact{
     font-size: 12px;
     color:#8b8b8b;
-    padding : 60px 100px 30px 122px;
+    padding : 60px 100px 30px 160px;
 /*    width: 510px;*/
     float: left;
 }
@@ -217,7 +218,7 @@ body{
     color:#8b8b8b;
     float: left;
     padding-top : 60px ;
-    margin-left: 335px;
+    margin-left: 257px;
     text-align: right;
 }
 
@@ -225,7 +226,7 @@ body{
     clear:left;
     font-size: 12px;
     color:#8b8b8b;
-    padding : 0px 20px 0px 122px;
+    padding : 0px 20px 0px 160px;
     float: left;
    
 }

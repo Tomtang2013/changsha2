@@ -10,6 +10,10 @@
     padding-left: 0px;
     float: left;
 }
+
+.ul_left li{
+    padding-left: 38px;
+}
 .work_about .ul_left .active,.unactive {
     background-color: transparent;
     display: block;
@@ -49,12 +53,13 @@
 
 .work_about .div_right {
     background-color: transparent;
-    margin-right: 120px;
+    margin-right: 154px;
     padding-top: 15px;
     padding-left: 0px;
     float: right;
     color:yellow;
     clear :right;
+    letter-spacing:4px;
 }
 
 .work_about .div_right span {
@@ -67,7 +72,7 @@
 .work_about_company_content{
     clear:both;
     width: 906px;
-    margin-left:330px;
+    margin-left:290px;
     padding-top: 50px;
 }
 .work_about_company_content_title{
@@ -113,7 +118,7 @@
 .work_about_team_main{
     clear:both;
     width: 906px;
-    margin-left:330px;
+    margin-left:290px;
 }
 .team_member_list{
  padding-bottom: 80px;

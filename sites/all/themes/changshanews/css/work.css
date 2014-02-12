@@ -5,7 +5,7 @@
 .work_summary_top{
      background-color: #eeeeee;
      min-height: 600px;
-     padding-left: 110px;
+     padding-left: 148px;
 }
 
 #work_summary_left{
@@ -20,9 +20,10 @@
     clear: right;
     color: black;
     float: right;
-    margin-right: 117px;
+    margin-right: 155px;
     padding-left: 0;
     padding-top: 50px;
+    letter-spacing:4px;
 }
 #work_summary_right span {
     background-color: yellow;
@@ -37,7 +38,7 @@
 }
 .work_imgs{
      clear:left;
-     padding-left: 120px;
+     padding-left: 158px;
      background-color: white;
      padding-top:20px;
 }
@@ -76,19 +77,18 @@
 
 /***************************************************************/
 
-.work_enviro_header img{
-/*     background-image: url(../images/work/enviro/top.jpg);*/
-/*    background-color: #FFFFFF;*/
-/*    background-size: cover;*/
-/*    max-height: 574px;*/
-/*    max-width: 1024px;*/
-/*    margin: auto;*/
-    width: 100%;
-    margin-top: -12px;
+.work_enviro_header{
+     width: 1351px;
+}
+/*.work_enviro_header img{
+    width: 1351px;
+}*/
+.work_enviro_main{
+    background-color:black;
+/*    min-height: 180px;*/
 }
 
 .work_enviro_main_content{
-    background-color: #333333;
     color: #dddddd;
 }
 .work_enviro_main_content_left{
@@ -103,7 +103,7 @@
 .work_enviro_main_content_right{
     float: left;
     width: 49%;
-    padding:30px 50px 30px 130px;
+    padding:30px 50px 30px 97px;
     font-size: 12px;
 }
 

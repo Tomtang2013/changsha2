@@ -41,9 +41,9 @@ if($nid){
 </script>
 
 <div class="work_enviro_header">
-    <img src="<?php print $work->w_top_image; ?>" />
+    <img class="work_enviro_header" src="<?php print $work->w_top_image; ?>" />
 </div>
-<div id="work_enviro_main" class="work_enviro_main">
+<div id="work_enviro_main" class="work_enviro_main" >
     <div class="work_enviro_main_content">
         <div class="work_enviro_main_content_left">
             <div class="work_enviro_main_content_title"><?php print $work->title; ?></div>
