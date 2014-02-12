@@ -37,11 +37,12 @@ if($nid){
 <script type="text/javascript">
     jQuery(function(){
         //        jQuery( ".active" ).find('a').css('color','black');
+        jQuery(".work_enviro_header").css('background-image','url(<?php print $work->w_top_image; ?>)');
     });
 </script>
 
 <div class="work_enviro_header">
-    <img class="work_enviro_header" src="<?php print $work->w_top_image; ?>" />
+<!--  <img  src="<?php print $work->w_top_image; ?>" />-->
 </div>
 <div id="work_enviro_main" class="work_enviro_main" >
     <div class="work_enviro_main_content">

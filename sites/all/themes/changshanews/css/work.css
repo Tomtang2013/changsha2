@@ -79,6 +79,7 @@
 
 .work_enviro_header{
      width: 1351px;
+     min-height: 775px;
 }
 /*.work_enviro_header img{
     width: 1351px;
@@ -110,12 +111,12 @@
 .work_enviro_main_imgs{
     background-color: #ffffff;
     color:#333333;
-    padding:30px 120px 30px 120px;
+    padding:30px 140px 30px 120px;
     font-size: 14px;
 }
 
 .work_enviro_main_imgs img{
-    width:1113px;
+    width:1079px;
 }
 .work_enviro_main_img{
     width: 999px;
