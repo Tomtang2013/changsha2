@@ -95,7 +95,7 @@
 .work_enviro_main_content_left{
     float: left;
     width: 20%;
-    padding:30px 50px 30px 120px;
+    padding:30px 50px 30px 158px;
 
 }
 .work_enviro_main_content_title{
@@ -103,20 +103,20 @@
 }
 .work_enviro_main_content_right{
     float: left;
-    width: 49%;
-    padding:30px 50px 30px 97px;
+    width: 660px;
+    padding:30px 50px 30px 60px;
     font-size: 12px;
 }
 
 .work_enviro_main_imgs{
     background-color: #ffffff;
     color:#333333;
-    padding:30px 140px 30px 120px;
+    padding:30px 150px 30px 158px;
     font-size: 14px;
 }
 
 .work_enviro_main_imgs img{
-    width:1079px;
+    width:1041px;
 }
 .work_enviro_main_img{
     width: 999px;
