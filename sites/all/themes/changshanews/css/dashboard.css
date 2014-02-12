@@ -1,19 +1,27 @@
 @font-face {
-       font-family: "fzlt";
+       font-family: "fzlt_0";
        font-style: normal;
        font-weight: normal;
-       font-stretch: normal;
        font-stretch: normal;
        src: url("font/FZLTXHK.TTF") format("opentype");
    }
 
+   @font-face {
+       font-family: "fzlt";
+       font-style: normal;
+       font-weight: normal;
+       font-stretch: normal;
+       src: url("font/FZLTXHK_0.TTF") format("opentype");
+   }
 body{
 /*    display:none;*/
-    font-family: fzlt;
+    font-family: fzlt_0;
+
 }
 
 .dashboard-page{
      background-color: #494949!Important;
+     min-width: 1351px;
 }
 
 .block-dashboard .content{
