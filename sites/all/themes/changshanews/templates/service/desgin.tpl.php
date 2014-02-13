@@ -37,7 +37,6 @@ $coo_path = $base_path . 'news_service/cooperation';
     <div style="width:100%;margin-top: -100px;">
         <div class="platform_item" style="margin-left:0px;">
             <div class="platform_item_content">媒体整合</div>
-            <hr >
             <div class="platform_item_detail">
                 <p>整合社会全媒体</p>
                 <p>资源有效精准投放</p>
@@ -45,7 +44,6 @@ $coo_path = $base_path . 'news_service/cooperation';
         </div>
         <div class="platform_item" style="margin-right:24px;margin-left:24px;">
             <div class="platform_item_content">企业顾问</div>
-            <hr>
             <div class="platform_item_detail">
                 <p>企业识别系统</p>
                 <p>建设及维护</p>
@@ -53,7 +51,6 @@ $coo_path = $base_path . 'news_service/cooperation';
         </div>
         <div class="platform_item" style="margin-right:0px;">
             <div class="platform_item_content">区域文化</div>
-            <hr>
             <div class="platform_item_detail">
                 <p>区域文化建设</p>
                 <p>区域识别系统</p>
@@ -63,7 +60,6 @@ $coo_path = $base_path . 'news_service/cooperation';
 
         <div class="platform_item" style="margin-left:0px;">
             <div class="platform_item_content">公关策划</div>
-            <hr >
             <div class="platform_item_detail">
                 <p>活动策划</p>
                 <p>会展执行</p>
@@ -72,7 +68,6 @@ $coo_path = $base_path . 'news_service/cooperation';
 
         <div class="platform_item" style="margin-right:24px;margin-left:24px;">
             <div class="platform_item_content">视觉创意</div>
-            <hr>
             <div class="platform_item_detail">
                 <p>广告、包装、书籍</p>
                 <p>画册等单件设计</p>
@@ -80,7 +75,6 @@ $coo_path = $base_path . 'news_service/cooperation';
         </div>
         <div class="platform_item" style="margin-right:0px;">
             <div class="platform_item_content">区域文化</div>
-            <hr>
             <div class="platform_item_detail">
                 <p>形象宣传片</p>
                 <p>微电影</p>

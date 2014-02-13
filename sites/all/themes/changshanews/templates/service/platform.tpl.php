@@ -36,7 +36,6 @@ $coo_path = $base_path . 'news_service/cooperation';
     <div style="width:100%;margin-top: -100px;">
         <div class="platform_item" style="margin-left:0px;">
             <div class="platform_item_content">品牌平台</div>
-            <hr >
             <div class="platform_item_detail">
                 <p>持续举行对话讲座、工作坊,</p>
                 <p>为自身品牌影响力建设</p>
@@ -44,7 +43,6 @@ $coo_path = $base_path . 'news_service/cooperation';
         </div>
         <div class="platform_item" style="margin-right:24px;margin-left:24px;">
             <div class="platform_item_content">经营平台</div>
-            <hr>
             <div class="platform_item_detail">
                 <p>通过社会联动关系产生经营性活动,</p>
                 <p>如竞赛、设计之旅、产品展、销售、</p>
@@ -53,7 +51,6 @@ $coo_path = $base_path . 'news_service/cooperation';
         </div>
         <div class="platform_item" style="margin-right:0px;">
             <div class="platform_item_content">特别平台</div>
-            <hr>
             <div class="platform_item_detail">
                 <p>服务于晨报全系全媒体需要、</p>
                 <p>中央指示或中南集团制定项目,</p>
