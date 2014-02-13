@@ -111,6 +111,7 @@
 
 #design_main .platform_item .platform_item_content{
     padding: 10px 10px 110px 18px;
+    font-family: fiber-black;
 }
 
 #design_main .platform_item hr{
