@@ -12,13 +12,37 @@ if($nid){
     $work->w_l_desc = $node->field_w_l_desc['und'][0]['value'];
 
     $work->w_b_image = array();
-    $work->w_b_image[] = $node->field_w_b_image1['und'][0]['uri'];
-    $work->w_b_image[] = $node->field_w_b_image2['und'][0]['uri'];
-    $work->w_b_image[] = $node->field_w_b_image3['und'][0]['uri'];
-    $work->w_b_image[] = $node->field_w_b_image4['und'][0]['uri'];
-    $work->w_b_image[] = $node->field_w_b_image5['und'][0]['uri'];
-    $work->w_b_image[] = $node->field_w_b_image6['und'][0]['uri'];
-    $work->w_b_image[] = $node->field_w_b_image7['und'][0]['uri'];
+
+    $uri = $node->field_w_b_image1['und'][0]['uri'];
+    if($uri){
+         $work->w_b_image[] = $uri;
+    }
+    $uri = $node->field_w_b_image2['und'][0]['uri'];
+    if($uri){
+         $work->w_b_image[] = $uri;
+    }
+    $uri = $node->field_w_b_image3['und'][0]['uri'];
+    if($uri){
+         $work->w_b_image[] = $uri;
+    }
+    $uri = $node->field_w_b_image4['und'][0]['uri'];
+    if($uri){
+         $work->w_b_image[] = $uri;
+    }
+    $uri = $node->field_w_b_image5['und'][0]['uri'];
+    if($uri){
+         $work->w_b_image[] = $uri;
+    }
+    $uri = $node->field_w_b_image6['und'][0]['uri'];
+    if($uri){
+         $work->w_b_image[] = $uri;
+    }
+    $uri = $node->field_w_b_image7['und'][0]['uri'];
+    if($uri){
+         $work->w_b_image[] = $uri;
+    }
+
+   
 
     $work->w_top_image = $node->field_w_top_image['und'][0]['uri'];
     $url = file_create_url($work->w_top_image);
@@ -32,6 +56,8 @@ if($nid){
         $paths[] = $url['path'];
     }
 }
+
+
 ?>
 
 <script type="text/javascript">
