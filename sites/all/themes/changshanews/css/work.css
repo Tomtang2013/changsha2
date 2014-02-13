@@ -90,6 +90,7 @@
 
 .work_enviro_header{
      width: 100%;
+     background-size: cover!important;
      min-height: 775px;
 }
 /*.work_enviro_header img{
