@@ -164,3 +164,8 @@
     height: 300px;
     padding-top: 10px;
 }
+
+.service-item-content{
+    width:100%;
+    margin-top: -120px;
+}

@@ -28,7 +28,7 @@ $coo_path = $base_path . 'news_service/cooperation';
 
 <div id="design_main" class="design_main">
 
-    <div style="width:100%;margin-top: -100px;">
+    <div  class="service-item-content">
         <div>
             <div class="left"></div>
             <div class="right"></div>

@@ -2,6 +2,8 @@
     global $base_path;
 ?>
 
+
+
 <div class="news_footer">
     <div class="news_footer_contact">
         <div style="float:left; display:inline-block;"><span class="footer_item">联系方式</span></div>

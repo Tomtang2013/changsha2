@@ -61,8 +61,8 @@ if($nid){
         <div style="max-width: 1040px;" >
             <div style="height:20px;background-color: yellow;"></div>
             <div style="min-height:400px;">
-                <div style="height:35px;font-family:fiber-black;">
-                    <div style="float:left;font-size: 20px;"><?php print $news->title;?></div>
+                <div style="height:35px;font-family:fiber-black;padding-top: 10px;">
+                    <div style="float:left;font-size: 22px;"><?php print $news->title;?></div>
                     <div style="float:right;">
                         <span style="padding-right:20px;">发布于：<?php print $news->n_public_date;?></span>
                         <span style="padding-right:20px;">来源：<?php print $news->n_origin;?></span>

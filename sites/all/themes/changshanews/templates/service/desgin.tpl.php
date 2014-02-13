@@ -34,7 +34,7 @@ $coo_path = $base_path . 'news_service/cooperation';
         同时为经营性广告公司，对外承接媒体投放，品牌顾问，视觉表达及影视制作等商业服务。
     </div>
     -->
-    <div style="width:100%;margin-top: -100px;">
+    <div  class="service-item-content">
         <div class="platform_item" style="margin-left:0px;">
             <div class="platform_item_content">媒体整合</div>
             <div class="platform_item_detail">

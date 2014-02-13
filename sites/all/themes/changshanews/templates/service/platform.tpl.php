@@ -33,7 +33,7 @@ $coo_path = $base_path . 'news_service/cooperation';
         探讨设计在生活、经济、社会转型过程中的价值和潜能，从此平台构建新的创造性的社会联动关系，从而全面带动中南地区的设计交流与发展。
     </div>
     -->
-    <div style="width:100%;margin-top: -100px;">
+    <div  class="service-item-content">
         <div class="platform_item" style="margin-left:0px;">
             <div class="platform_item_content">品牌平台</div>
             <div class="platform_item_detail">
