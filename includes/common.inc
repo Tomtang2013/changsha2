@@ -350,6 +350,15 @@ function _drupal_default_html_head() {
       'content' => 'width=1350, initial-scale=1, maximum-scale=1',
     ),
   );
+
+   $elements['system_meta_renderer'] = array(
+    '#type' => 'html_tag',
+    '#tag' => 'meta',
+    '#attributes' => array(
+      'name' => 'renderer',
+      'content' => 'webkit',
+    ),
+  );
    
   // Also send the generator in the HTTP header.
   $elements['system_meta_generator']['#attached']['drupal_add_http_header'][] = array('X-Generator', $elements['system_meta_generator']['#attributes']['content']);
