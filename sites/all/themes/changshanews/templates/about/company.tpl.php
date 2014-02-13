@@ -20,7 +20,7 @@ $theme_path = $base_path . drupal_get_path('theme', 'changshanews');
     </ul>
 
     <div class="div_right">
-        <span class="">A BRAND / A SOUND</span>
+        <span class="en_right">A BRAND / A SOUND</span>
         <span>一个品牌一个声音</span>
     </div>
 

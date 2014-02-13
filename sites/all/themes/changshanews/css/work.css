@@ -14,6 +14,7 @@
     margin: 10px;
     padding-top: 50px;
     color:black;
+    font-family: fiber-black;
 }
 
 #work_summary_right{
@@ -24,6 +25,7 @@
     padding-left: 0;
     padding-top: 50px;
     letter-spacing:4px;
+    font-family: fiber-black;
 }
 #work_summary_right span {
     background-color: yellow;

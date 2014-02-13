@@ -50,8 +50,8 @@ foreach ($result as $row) {
     <div class="work_summary_top" style="min-height: 250px;">
             <div id="work_summary_left">动态</div>
             <div id="work_summary_right">
-                <span>CAREFULLY OBSERVE LIFE</span>
-                <span>SO LIVE INTERACTIVE DESIGN AND</span>
+                <span style="padding-right:166px;">CAREFULLY OBSERVE LIFE</span>
+                <span style="padding-right:200px;">SO LIVE INTERACTIVE DESIGN AND</span>
                 <span>用心观察生活,让设计与生活互动</span>
             </div>
     </div>

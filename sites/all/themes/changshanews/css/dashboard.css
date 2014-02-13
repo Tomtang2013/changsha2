@@ -1,18 +1,35 @@
 @font-face {
-       font-family: "fzlt_0";
-       font-style: normal;
-       font-weight: normal;
-       font-stretch: normal;
-       src: url("font/FZLTXHK.TTF") format("opentype");
-   }
-
-   @font-face {
        font-family: "fzlt";
        font-style: normal;
        font-weight: normal;
        font-stretch: normal;
        src: url("font/FZLTXHK_0.TTF") format("opentype");
    }
+
+   @font-face {
+       font-family: "fine-black";
+       font-style: normal;
+       font-weight: normal;
+       font-stretch: normal;
+       src: url("font/fzltxh.ttf") format("opentype");
+   }
+
+   @font-face {
+       font-family: "super-fine-black";
+       font-style: normal;
+       font-weight: normal;
+       font-stretch: normal;
+       src: url("font/fzltcxhjt.TTF") format("opentype");
+   }
+
+   @font-face {
+       font-family: "fiber-black";
+       font-style: normal;
+       font-weight: normal;
+       font-stretch: normal;
+       src: url("font/fzltqhjt.TTF") format("opentype");
+   }
+
 body{
 /*    display:none;*/
     font-family: fzlt_0;
@@ -38,6 +55,8 @@ body{
     width: 100%;
     background-color: black;
     height:60px;
+    font-family: fiber-black;
+ 
 }
 
 .first_header ul  {
@@ -208,6 +227,7 @@ body{
     position: relative;
     
     display: block;
+    font-family: fiber-black;
 }
 
 .dashboard_footer .news_footer_contact{
@@ -227,7 +247,7 @@ body{
     color:#8b8b8b;
     float: left;
     padding-top : 60px ;
-    margin-left: 257px;
+    margin-left: 280px;
     text-align: right;
 }
 
