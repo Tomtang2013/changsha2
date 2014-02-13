@@ -22,6 +22,7 @@ body{
 .dashboard-page{
      background-color: #494949!Important;
      min-width: 1351px;
+     max-width: 1351px;
 }
 
 .block-dashboard .content{
