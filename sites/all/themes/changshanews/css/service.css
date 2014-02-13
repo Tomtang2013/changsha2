@@ -23,6 +23,7 @@
     padding-left: 0px;
     float: left;
     font-family: fiber-black;
+
 }
 .service_design_header .ul_left .active,.unactive {
     background-color: transparent;
@@ -69,7 +70,7 @@
     float: right;
     color:#aaaaaa;
     clear :right;
-    font-family: fiber-black;
+/*    font-family: fiber-black;*/
 }
 
 .service_design_header .div_right span {
@@ -168,4 +169,14 @@
 .service-item-content{
     width:100%;
     margin-top: -120px;
+}
+
+.service-opt-first{
+/*    padding-right:186px!important;
+    *padding-right:186px!important;*/
+}
+
+.service-opt-sec{
+/*   padding-right:91px!important;
+   *padding-right:91px!important;*/
 }

@@ -8,6 +8,8 @@ $coo_path = $base_path . 'news_service/cooperation';
     jQuery(function(){
         jQuery( ".active" ).find('a').css('color','black');
     });
+    
+
 </script>
 
 <div class="service_design_header service_platform_header_bg">
@@ -18,8 +20,8 @@ $coo_path = $base_path . 'news_service/cooperation';
     </ul>
 
     <div class="div_right">
-        <span style="padding-right:186px;">the most influential design communication platform</span>
-        <span style="padding-right:91px;">in Central South China </span>
+        <span class="service-opt-first" >the most influential design communication platform</span>
+        <span class="service-opt-sec" >in Central South China </span>
         <span>中南地区最具大众影响力的设计传播平台</span>
     </div>
 
