@@ -38,7 +38,7 @@ body{
 
 .dashboard-page{
      background-color: #494949!Important;
-     min-width: 1351px;
+     min-width: 1100px;
      max-width: 1351px;
 }
 
@@ -245,9 +245,9 @@ body{
 .dashboard_footer .news_footer_partner{
     font-size: 12px;
     color:#8b8b8b;
-    float: left;
+    float: right;
     padding-top : 60px ;
-    margin-left: 262px;
+    margin-right: 152px;
     text-align: right;
 }
 
