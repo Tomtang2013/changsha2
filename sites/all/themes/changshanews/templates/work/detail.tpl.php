@@ -5,7 +5,7 @@ $nid = arg(2);
 if($nid){
     $node = node_load($nid);
     $work = new stdClass();
-    $work->nid = $row->nid;
+    $work->nid = $nid;
     $work->title = $node->title;
     $work->body = $node->body['und'][0]['value'];
     $work->w_s_desc = $node->field_w_s_desc['und'][0]['value'];
