@@ -39,8 +39,12 @@ foreach ($result as $row) {
    
     <div class="work_imgs">
         <div style="margin-top: -330px;width: 100%" >
-            <?php foreach($works_list as $work) :?>
-               <div class="div_img ">
+            <?php $i=0; foreach($works_list as $work) : $i++?>
+                <?php if($i%3 == 0) :?>
+                    <div class="div_imglast ">
+                <?php else:?>
+                    <div class="div_img ">
+                <?php endif?>
                      <a href="<?php print $work_detail_path.$work->nid ?>" >
                          <img src="<?php print $work->path; ?>" />
                      </a>

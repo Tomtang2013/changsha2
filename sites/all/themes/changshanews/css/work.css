@@ -51,13 +51,22 @@
 }
 
 .div_img{
-/*    height: 362px;*/
-    width: 346px;
-    background-size: cover;
     float: left;
     margin-bottom: 13px;
+    margin-right:26px;
 }
 
+.div_img img{
+    width: 329px;
+}
+.div_imglast{
+    float: left;
+    margin-bottom: 26px;
+}
+
+.div_imglast img{
+    width: 329px;
+}
 
 /*.div_img_wp{
     background-image: url(../images/work/summary/wp.jpg);
