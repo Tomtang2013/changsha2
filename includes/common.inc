@@ -356,7 +356,9 @@ function _drupal_default_html_head() {
     '#tag' => 'meta',
     '#attributes' => array(
       'name' => 'renderer',
-      'content' => 'webkit',
+//      'content' => 'webkit',
+        'content' => 'ie-stand',
+
     ),
   );
    
