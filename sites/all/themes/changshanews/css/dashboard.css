@@ -33,7 +33,7 @@
 body{
 /*    display:none;*/
     font-family: fzlt_0;
-
+/*    background:#FFF url(../images/whiteStripe.png) fixed;*/
 }
 
 .dashboard-page{
@@ -155,29 +155,37 @@ body{
    height:515px;
 }
 .dashboard_main .small_log1{
-    width: 50px;
+    width: 250px;
     height:80px;
 }
 
 .dashboard_main .small_log2{
-    width: 70px;
-/*    height:130px;*/
-    margin-left: 82%;
-    margin-top: 150px;
+        background: url(../images/main_image/dashboard_logo2.png) 50% 0 no-repeat fixed;
+        background-size:90px ;
+        z-index: 200;
+	margin: 0 auto;
+	position: absolute;
+	width: 900px;
+        height: 515px;
 }
-
 .dashboard_main .small_log3{
-    width: 170px;
-/*    height:140px;*/
-    margin-left:15%;
-    margin-top: 120px;
+        background: url(../images/main_image/dashboard_logo3.png) 50% 0 no-repeat fixed;
+        background-size:140px ;
+        z-index: 200;
+	margin: 0 auto;
+	position: absolute;
+	width: 900px;
+        height: 515px;
 }
 
 .dashboard_main .small_log4{
-    width: 160px;
-/*    height:180px;*/
-    margin-left:15%;
-    margin-top: 145px;
+    background: url(../images/main_image/dashboard_logo4.png) 50% 0 no-repeat fixed;
+    background-size:200px ;
+    z-index: 200;
+    margin: 0 auto;
+    position: absolute;
+    width: 900px;
+    height: 515px;
 }
 .dashboard_main .small_log{
     z-index: 200;

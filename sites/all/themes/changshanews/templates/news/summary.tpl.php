@@ -1,7 +1,7 @@
 <?php
 global $base_path;
 $news_detail_path = $base_path."news/detail/";
-
+$theme_path = $base_path . drupal_get_path('theme', 'changshanews');
 $result = db_query("SELECT nid FROM node WHERE type = :type", array(':type' => 'news'))->fetchAll();
 
 $news_list = array();
@@ -48,6 +48,7 @@ foreach ($result as $row) {
 <div>
 <div id="work_summary_main" class="work_summary_main">
     <div class="work_summary_top" style="min-height: 250px;">
+<!--        <img src="<?php print $theme_path ?>/images/dt-top1.jpg"  alt=""/>-->
             <div id="work_summary_left">动态</div>
             <div id="work_summary_right">
                 <span style="padding-right:166px;">CAREFULLY OBSERVE LIFE</span>

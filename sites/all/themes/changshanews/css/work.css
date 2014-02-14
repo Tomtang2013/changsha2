@@ -3,7 +3,8 @@
 }
 
 .work_summary_top{
-     background-color: #eeeeee;
+/*     background-color: #eeeeee;*/
+     background:#eee url(../images/whiteStripe.png) fixed;
      min-height: 600px;
      padding-left: 148px;
 }
@@ -39,6 +40,7 @@
    
 }
 .work_imgs{
+     background:#eee url(../images/whiteStripe.png) fixed;
      clear:left;
      padding-left: 158px;
      background-color: white;

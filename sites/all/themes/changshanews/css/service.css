@@ -98,6 +98,7 @@
     background-color: #ffffff;
     padding-left: 158px;
     padding-top: 30px;
+    background:#eee url(../images/whiteStripe.png) fixed;
 }
 
 #design_main .platform_item{
@@ -172,11 +173,11 @@
 }
 
 .service-opt-first{
-/*    padding-right:186px!important;
-    *padding-right:186px!important;*/
+/*    width:680px;*/
 }
 
+
+
 .service-opt-sec{
-/*   padding-right:91px!important;
-   *padding-right:91px!important;*/
+/*    width:306px;*/
 }
