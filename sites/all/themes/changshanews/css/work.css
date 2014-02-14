@@ -135,6 +135,7 @@
     font-family: fine-black;
     line-height:24px;
     letter-spacing:2px;
+    background: #eee url(../images/whiteStripe.png) fixed;
 }
 
 .work_enviro_main_imgs img{
