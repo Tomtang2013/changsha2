@@ -26,7 +26,7 @@
     padding-left: 0;
     padding-top: 50px;
     letter-spacing:4px;
-    font-family: fiber-black;
+    font: Microsoft YaHei,"\5B8B\4F53",Arial,HELVETICA;
 }
 #work_summary_right span {
     background-color: yellow;

@@ -39,8 +39,6 @@ foreach ($result as $row) {
         jQuery('.bx-default-pager').css("top","340px");
 
 //        jQuery('.bx-controls').css('top','640px');
-       
-
         jQuery('.bx-wrapper').find('img').css('min-height','400px');
     });
 </script>
@@ -51,8 +49,10 @@ foreach ($result as $row) {
 <!--        <img src="<?php print $theme_path ?>/images/dt-top1.jpg"  alt=""/>-->
             <div id="work_summary_left">动态</div>
             <div id="work_summary_right">
-                <span style="padding-right:166px;">CAREFULLY OBSERVE LIFE</span>
-                <span style="padding-right:200px;">SO LIVE INTERACTIVE DESIGN AND</span>
+<!--                style="padding-right:166px;"
+                style="padding-right:200px;"-->
+                <span >CAREFULLY OBSERVE LIFE</span>
+                <span >SO LIVE INTERACTIVE DESIGN AND</span>
                 <span>用心观察生活,让设计与生活互动</span>
             </div>
     </div>

@@ -34,6 +34,7 @@ body{
 /*    display:none;*/
     font-family: fzlt_0;
 /*    background:#FFF url(../images/whiteStripe.png) fixed;*/
+
 }
 
 .dashboard-page{
@@ -302,4 +303,9 @@ body{
 
 .news_item{
     background-color: yellow;
+}
+
+.nav_img{
+   width: 45px;
+    height:45px;
 }

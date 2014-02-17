@@ -7,6 +7,7 @@ $about_memberdetail_path = $base_path . "about/memberdetail";
 $theme_path = $base_path . drupal_get_path('theme', 'changshanews');
 
 $nid = arg(2);
+
 if($nid){
     $node = node_load($nid);
     $news = new stdClass();
@@ -52,8 +53,10 @@ if($nid){
     <div class="work_summary_top" style="min-height: 250px;">
             <div id="work_summary_left">动态</div>
             <div id="work_summary_right">
-                <span style="padding-right:166px;">CAREFULLY OBSERVE LIFE</span>
-                <span style="padding-right:200px;">SO LIVE INTERACTIVE DESIGN AND</span>
+<!--                style="padding-right:166px;"
+                 style="padding-right:200px;"-->
+                <span >CAREFULLY OBSERVE LIFE</span>
+                <span>SO LIVE INTERACTIVE DESIGN AND</span>
                 <span>用心观察生活,让设计与生活互动</span>
             </div>
     </div>
@@ -62,7 +65,7 @@ if($nid){
             <div style="height:20px;background-color: yellow;"></div>
             <div style="min-height:400px;">
                 <div style="height:35px;font-family:fiber-black;padding-top: 10px;">
-                    <div style="float:left;font-size: 22px;"><?php print $news->title;?></div>
+                    <div style="float:left;font-size: 30px;"><?php print $news->title;?></div>
                     <div style="float:right;">
                         <span style="padding-right:20px;">发布于：<?php print $news->n_public_date;?></span>
                         <span style="padding-right:20px;">来源：<?php print $news->n_origin;?></span>

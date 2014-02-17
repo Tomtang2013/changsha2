@@ -91,7 +91,6 @@ function dashboard_menu() {
     );
 
 
-
     return $items;
 }
 
@@ -134,3 +133,24 @@ function news_detail_call_back(){
     $pageContent = '';
     return $pageContent;
 }
+
+function get_nav_nid($nid,$type,$opt){
+    $result = db_query("SELECT * FROM node WHERE type = :type", array(':type' => $type))->fetchAll();
+    $length = count($result);
+     dd($length);
+    for($i=0;i<$length;$i++){
+        $select_nid = $result[$i]->nid;
+        if('next' == $opt){
+            if($nid == $select_nid && $i !=$length){
+                return $result[$i+1]->nid;
+            }
+        } else if('prv' == $opt){
+            if($nid == $select_nid && $i !=0){
+                return $result[$i-1]->nid;
+            }
+        }
+    }
+    return -1;
+}
+
+

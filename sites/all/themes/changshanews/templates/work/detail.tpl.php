@@ -1,7 +1,12 @@
 <?php
 global $base_path;
 $theme_path = $base_path . drupal_get_path('theme', 'changshanews');
+$nav_path = $base_path .'work/detail/';
+$nav_grid = $base_path .'work/summary';
 $nid = arg(2);
+$next = get_nav_nid($nid,'work','next');
+$prv = get_nav_nid($nid,'work','prv');
+
 if($nid){
     $node = node_load($nid);
     $work = new stdClass();
@@ -68,7 +73,11 @@ if($nid){
 </script>
 
 <div class="work_enviro_header">
-<!--  <img  src="<?php print $work->w_top_image; ?>" />-->
+    <div style="padding-left:1018px;">
+        <a href="<?php print $nav_grid; ?>" ><img class="nav_img" src="<?php print $theme_path ?>/images/nav_grid.png"  alt=""/></a>
+        <a href="<?php print $nav_path.$next; ?>" ><img class="nav_img" src="<?php print $theme_path ?>/images/nav_prv.png"  alt=""/></a>
+        <a href="<?php print $nav_path.$prv; ?>" ><img class="nav_img" src="<?php print $theme_path ?>/images/nav_next.png"  alt=""/></a>
+    </div>
 </div>
 <div id="work_enviro_main" class="work_enviro_main" >
     <div class="work_enviro_main_content">

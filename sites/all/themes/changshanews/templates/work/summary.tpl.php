@@ -31,8 +31,10 @@ foreach ($result as $row) {
     <div class="work_summary_top">
         <div id="work_summary_left">工作</div>
             <div id="work_summary_right">
-                <span style="padding-right:112px;">Our passion is building brands</span>
-                <span style="padding-right:66px;">from thr insde out</span>
+<!--                style="padding-right:210px;"
+                style="padding-right:136px;"-->
+                <span >OUR PASSION IS BUILDING BRANDS</span>
+                <span >FROM THR INSDE OUT</span>
                 <span>我们的激情是由内而外的品牌建设</span>
             </div>
     </div>
