@@ -152,4 +152,29 @@ function get_nav_nid($nid,$type,$opt){
     return -1;
 }
 
-
+function get_nav_member($nid,$opt){
+    $result = db_query("SELECT nid,f.field_m_weight_value FROM node n
+                    join field_data_field_m_weight f on n.nid = f.entity_id and f.entity_type = 'node'
+                    , field_data_field_m_type fm
+                    WHERE n.type = 'member'
+                    and n.nid = fm.entity_id and fm.entity_type = 'node'
+                    and field_m_type_value = (SELECT fm.field_m_type_value FROM node n join
+                    field_data_field_m_type fm on n.nid = fm.entity_id and entity_type = 'node'
+                    and nid = $nid)
+                    order by f.field_m_weight_value")->fetchAll();
+    
+    $length = count($result);
+    for($i=0;$i<$length;$i++){
+        $select_nid = $result[$i]->nid;
+        if('next' == $opt){
+            if($nid == $select_nid && $i+1 !=$length){
+                return $result[$i+1]->nid;
+            }
+        } else if('prv' == $opt){
+            if($nid == $select_nid && $i !=0){
+                return $result[$i-1]->nid;
+            }
+        }
+    }
+    return -1;
+}

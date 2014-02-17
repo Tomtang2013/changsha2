@@ -4,6 +4,12 @@ $about_company_path = $base_path . "about/company";
 $about_team_path = $base_path . "about/team";
 $theme_path = $base_path . drupal_get_path('theme', 'changshanews');
 
+$nav_grid = $base_path .'about/team';
+$nav_path = $base_path .'about/memberdetail/';
+$nid = arg(2);
+$next = get_nav_member($nid,'next');
+$prv = get_nav_member($nid,'prv');
+
 $nid = arg(2);
 if($nid){
     $node = node_load($nid);
@@ -48,6 +54,15 @@ if($nid){
         <span>一个品牌一个声音</span>
     </div>
  <div style="clear:both;height:100px; "></div>
+        <div style="padding-left:1018px;">
+            <a href="<?php print $nav_grid; ?>" ><img class="nav_img" src="<?php print $theme_path ?>/images/nav_grid.png"  alt=""/></a>
+            <?php if($prv != -1):?>
+            <a href="<?php print $nav_path.$prv; ?>" ><img class="nav_img" src="<?php print $theme_path ?>/images/nav_prv.png"  alt=""/></a>
+            <?php endif;?>
+             <?php if($next != -1):?>
+            <a href="<?php print $nav_path.$next; ?>" ><img class="nav_img" src="<?php print $theme_path ?>/images/nav_next.png"  alt=""/></a>
+            <?php endif;?>
+        </div>
     <div class="work_about_team_memeber_main" >
         <div class="big_img">
             <img src="<?php print $path; ?>" />
