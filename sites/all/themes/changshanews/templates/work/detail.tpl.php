@@ -7,6 +7,7 @@ $nid = arg(2);
 $next = get_nav_nid($nid,'work','next');
 $prv = get_nav_nid($nid,'work','prv');
 
+
 if($nid){
     $node = node_load($nid);
     $work = new stdClass();
@@ -75,8 +76,12 @@ if($nid){
 <div class="work_enviro_header">
     <div style="padding-left:1018px;">
         <a href="<?php print $nav_grid; ?>" ><img class="nav_img" src="<?php print $theme_path ?>/images/nav_grid.png"  alt=""/></a>
-        <a href="<?php print $nav_path.$next; ?>" ><img class="nav_img" src="<?php print $theme_path ?>/images/nav_prv.png"  alt=""/></a>
-        <a href="<?php print $nav_path.$prv; ?>" ><img class="nav_img" src="<?php print $theme_path ?>/images/nav_next.png"  alt=""/></a>
+        <?php if($prv != -1):?>
+        <a href="<?php print $nav_path.$prv; ?>" ><img class="nav_img" src="<?php print $theme_path ?>/images/nav_prv.png"  alt=""/></a>
+        <?php endif;?>
+         <?php if($next != -1):?>
+        <a href="<?php print $nav_path.$next; ?>" ><img class="nav_img" src="<?php print $theme_path ?>/images/nav_next.png"  alt=""/></a>
+        <?php endif;?>
     </div>
 </div>
 <div id="work_enviro_main" class="work_enviro_main" >

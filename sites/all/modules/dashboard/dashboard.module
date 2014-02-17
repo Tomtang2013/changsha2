@@ -135,13 +135,12 @@ function news_detail_call_back(){
 }
 
 function get_nav_nid($nid,$type,$opt){
-    $result = db_query("SELECT * FROM node WHERE type = :type", array(':type' => $type))->fetchAll();
+    $result = db_query("SELECT nid FROM node WHERE type = :type", array(':type' => $type))->fetchAll();
     $length = count($result);
-     dd($length);
-    for($i=0;i<$length;$i++){
+    for($i=0;$i<$length;$i++){
         $select_nid = $result[$i]->nid;
         if('next' == $opt){
-            if($nid == $select_nid && $i !=$length){
+            if($nid == $select_nid && $i+1 !=$length){
                 return $result[$i+1]->nid;
             }
         } else if('prv' == $opt){
