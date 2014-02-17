@@ -7,12 +7,36 @@ $coo_path = $base_path . 'news_service/cooperation';
 <script type="text/javascript">
     jQuery(function(){
         jQuery( ".active" ).find('a').css('color','black');
+
+        var bg1 = 'service_design_header service_platform_header_bg';
+        var bg2 = 'service_design_header service_design_header_bg';
+//        . service_design_header service_design_header_bg
+       var isTwo = true;
+       var platform_header = jQuery('#platform_header');
+       window.setInterval(function(){
+            if(isTwo){
+                platform_header.fadeOut('slow', function () {
+                    platform_header.attr('class',bg1 );
+                    platform_header.fadeIn('slow');
+                });
+            } else {
+                 platform_header.fadeOut('slow', function () {
+                    platform_header.attr('class',bg2 );
+                    platform_header.fadeIn('slow');
+                });
+            }
+            isTwo = !isTwo;
+       }, 5000);
+       
+           
+
     });
-    
+
+
 
 </script>
 
-<div class="service_design_header service_platform_header_bg">
+<div class="service_design_header service_platform_header_bg" id="platform_header">
     <ul class="ul_left">
         <li  class="active"><a href="<?php print $platform_path; ?>">平台服务</a></li>
         <li class="unactive"><a href="<?php print $design_path; ?>">设计服务</a></li>
@@ -26,6 +50,7 @@ $coo_path = $base_path . 'news_service/cooperation';
     </div>
 
 </div>
+
 
 <div id="design_main" class="design_main">
     <!--<h2>设计服务</h2>
