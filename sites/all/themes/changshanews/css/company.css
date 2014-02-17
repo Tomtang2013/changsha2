@@ -61,7 +61,8 @@
     color:yellow;
     clear :right;
     letter-spacing:4px;
-    font-family: fiber-black;
+/*    font-family: fiber-black;*/
+    font: Microsoft YaHei,"\5B8B\4F53",Arial,HELVETICA;
 }
 
 .work_about .div_right span {
@@ -72,7 +73,7 @@
 }
 
 .work_about .div_right .en_right{
-    padding-right:115px;
+/*    padding-right:115px;*/
 }
 
 .work_about_company_content{
