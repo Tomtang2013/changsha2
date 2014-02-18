@@ -52,7 +52,7 @@
     </div>
     <div class="dashboard_img dashboard_img4" id="dashboard_img4">
         <div class="story">
-            <div class=" small_log4" style="background-position: 20% 200px;">
+            <div class=" small_log4" style="background-position: 75% 200px;">
                 
             </div>
 <!--            <a href="#" class="small_log"><img class=" small_log4" src="<?php print drupal_get_path('theme', 'changshanews'); ?>/images/main_image/dashboard_logo4.png"  alt=""/></a>-->

@@ -182,7 +182,7 @@ body{
 
 .dashboard_main .small_log4{
     background: url(../images/main_image/dashboard_logo4.png) 50% 0 no-repeat fixed;
-    background-size:200px ;
+    background-size:180px ;
     z-index: 200;
     margin: 0 auto;
     position: absolute;
