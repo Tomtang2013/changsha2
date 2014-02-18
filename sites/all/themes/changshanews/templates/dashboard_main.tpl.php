@@ -38,7 +38,7 @@
     </div>
     <div class="dashboard_img dashboard_img2" id="dashboard_img2">
         <div class="story">
-                <div class=" small_log2" style="background-position: 80% 200px;">
+                <div class=" small_log2" style="background-position: 80% 220px;">
 <!--                    <a href="#" style="min-width:90px;min-height:130px;margin-left: 80%;margin-top: 100px;"> aaa </a>-->
                 </div>
         </div>
