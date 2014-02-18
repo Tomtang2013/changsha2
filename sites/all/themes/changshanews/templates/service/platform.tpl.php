@@ -3,32 +3,51 @@ global $base_path;
 $platform_path = $base_path . 'news_service/platform';
 $design_path = $base_path . 'news_service/design';
 $coo_path = $base_path . 'news_service/cooperation';
+$theme_path = $base_path . drupal_get_path('theme', 'changshanews');
 ?>
 <script type="text/javascript">
     jQuery(function(){
         jQuery( ".active" ).find('a').css('color','black');
 
-        var bg1 = 'service_design_header service_platform_header_bg';
-        var bg2 = 'service_design_header service_design_header_bg';
-//        . service_design_header service_design_header_bg
-       var isTwo = true;
-       var platform_header = jQuery('#platform_header');
-       window.setInterval(function(){
-            if(isTwo){
-                platform_header.fadeOut('slow', function () {
-                    platform_header.attr('class',bg1 );
-                    platform_header.fadeIn('slow');
-                });
-            } else {
-                 platform_header.fadeOut('slow', function () {
-                    platform_header.attr('class',bg2 );
-                    platform_header.fadeIn('slow');
-                });
-            }
-            isTwo = !isTwo;
-       }, 5000);
+//        var bg1 = 'service_design_header service_platform_header_bg';
+//        var bg2 = 'service_design_header service_design_header_bg';
+////        . service_design_header service_design_header_bg
+//       var isTwo = true;
+//       var platform_header = jQuery('#platform_header');
+//       window.setInterval(function(){
+//            if(isTwo){
+//                platform_header.fadeOut('slow', function () {
+//                    platform_header.attr('class',bg1 );
+//                    platform_header.fadeIn('slow');
+//                });
+//            } else {
+//                 platform_header.fadeOut('slow', function () {
+//                    platform_header.attr('class',bg2 );
+//                    platform_header.fadeIn('slow');
+//                });
+//            }
+//            isTwo = !isTwo;
+//       }, 5000);
+
+        
        
-           
+//        jQuery('.bxslider').bxSlider({
+//            auto: true,
+//            mode: 'fade',
+//            autoControls: true
+//        });
+//        jQuery('.bx-wrapper').css('margin-bottom','0px');
+//        jQuery('.bxslider').css('margin-top','0px');
+//        jQuery('.bxslider').css('margin-bottom','0px');
+//
+//        jQuery('.design_main').css('z-index','60');
+//        jQuery('.service-item-content').css('z-index','70');
+//        jQuery('.platform_item').css('z-index','80');
+//
+//        jQuery('.bx-prev').hide();
+//        jQuery('.bx-next').hide();
+//        jQuery('.bx-pager').hide();
+
 
     });
 
@@ -48,18 +67,43 @@ $coo_path = $base_path . 'news_service/cooperation';
         <span class="service-opt-sec" >IN CENTRAL SOUTH CHINA </span>
         <span>中南地区最具大众影响力的设计传播平台</span>
     </div>
-
 </div>
+
+<!--  <ul class="bxslider">
+           <li>
+                <div class="service_design_header service_platform_header_bg" id="platform_header">
+                    <ul class="ul_left">
+                        <li  class="active"><a href="<?php print $platform_path; ?>">平台服务</a></li>
+                        <li class="unactive"><a href="<?php print $design_path; ?>">设计服务</a></li>
+                        <li class="unactive"><a href="<?php print $coo_path; ?>">合作案例</a></li>
+                    </ul>
+
+                    <div class="div_right">
+                        <span class="service-opt-first" >THE MOST INFLUENTIAL DESIGN COMMUNICATION PLATFORM</span>
+                        <span class="service-opt-sec" >IN CENTRAL SOUTH CHINA </span>
+                        <span>中南地区最具大众影响力的设计传播平台</span>
+                    </div>
+                </div>
+           </li>
+           <li>
+                <div class="service_design_header service_design_header_bg" id="platform_header">
+                    <ul class="ul_left">
+                        <li  class="active"><a href="<?php print $platform_path; ?>">平台服务</a></li>
+                        <li class="unactive"><a href="<?php print $design_path; ?>">设计服务</a></li>
+                        <li class="unactive"><a href="<?php print $coo_path; ?>">合作案例</a></li>
+                    </ul>
+
+                    <div class="div_right">
+                        <span class="service-opt-first" >THE MOST INFLUENTIAL DESIGN COMMUNICATION PLATFORM</span>
+                        <span class="service-opt-sec" >IN CENTRAL SOUTH CHINA </span>
+                        <span>中南地区最具大众影响力的设计传播平台</span>
+                    </div>
+                </div>
+           </li>
+   </ul>-->
 
 
 <div id="design_main" class="design_main">
-    <!--<h2>设计服务</h2>
-    <hr>
-    <div style="margin-bottom: 40px;">
-        潇湘晨报 设计长沙从设计价值的普适性出发，立足于普通民众的日常生活，集结来自设计、艺术、人文、商业、教育与研究等领域的创新力量，共同
-        探讨设计在生活、经济、社会转型过程中的价值和潜能，从此平台构建新的创造性的社会联动关系，从而全面带动中南地区的设计交流与发展。
-    </div>
-    -->
     <div  class="service-item-content">
         <div class="platform_item" style="margin-left:0px;">
             <div class="platform_item_content">品牌平台</div>

@@ -34,6 +34,7 @@ body{
 /*    display:none;*/
     font-family: fzlt_0;
 /*    background:#FFF url(../images/whiteStripe.png) fixed;*/
+/*    font: Microsoft YaHei,"\5B8B\4F53",Arial,HELVETICA;*/
 
 }
 
@@ -297,7 +298,10 @@ body{
 
 .footer_item{
     color:yellow;
+    float:left;
+    padding-right:10px;
 }
+
 
 /**********************************************/
 
