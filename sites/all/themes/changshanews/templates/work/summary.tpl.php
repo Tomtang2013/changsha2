@@ -35,7 +35,7 @@ foreach ($result as $row) {
                 style="padding-right:136px;"-->
                 <span >OUR PASSION IS BUILDING BRANDS</span>
                 <span >FROM THR INSDE OUT</span>
-                <span>我们的激情是由内而外的品牌建设</span>
+                <span  class="chinese_right">我们的激情是由内而外的品牌建设</span>
             </div>
     </div>
    

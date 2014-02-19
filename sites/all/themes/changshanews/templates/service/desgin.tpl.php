@@ -21,7 +21,7 @@ $coo_path = $base_path . 'news_service/cooperation';
     <div class="div_right">
        <span class="service-opt-first" >THE MOST INFLUENTIAL DESIGN COMMUNICATION PLATFORM</span>
         <span class="service-opt-sec" >IN CENTRAL SOUTH CHINA </span>
-        <span>中南地区最具大众影响力的设计传播平台</span>
+        <span class="chinese_right">中南地区最具大众影响力的设计传播平台</span>
     </div>
 
 </div>

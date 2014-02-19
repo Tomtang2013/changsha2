@@ -51,7 +51,7 @@ if($nid){
 
     <div class="div_right">
         <span class="en_right">A BRAND / A SOUND</span>
-        <span>一个品牌一个声音</span>
+        <span class="chinese_right">一个品牌一个声音</span>
     </div>
  <div style="clear:both;height:100px; "></div>
         <div style="padding-left:1018px;">

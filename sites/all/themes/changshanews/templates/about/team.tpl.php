@@ -55,7 +55,7 @@ uasort($experts, "compareItems");
 
     <div class="div_right">
         <span class="en_right">A BRAND / A SOUND</span>
-        <span>一个品牌一个声音</span>
+        <span class="chinese_right">一个品牌一个声音</span>
     </div>
 
     <div class="work_about_team_main" >

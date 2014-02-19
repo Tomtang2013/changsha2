@@ -53,7 +53,7 @@ foreach ($result as $row) {
                 style="padding-right:200px;"-->
                 <span >CAREFULLY OBSERVE LIFE</span>
                 <span >SO LIVE INTERACTIVE DESIGN AND</span>
-                <span>用心观察生活,让设计与生活互动</span>
+                <span  class="chinese_right">用心观察生活,让设计与生活互动</span>
             </div>
     </div>
      <div class="work_imgs" style="background-color: #EEEEEE;">
