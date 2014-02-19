@@ -1,4 +1,6 @@
-@font-face {
+    @import url(http://fonts.googleapis.com/css?family=Maven+Pro);
+    
+    @font-face {
        font-family: "fzlt";
        font-style: normal;
        font-weight: normal;
