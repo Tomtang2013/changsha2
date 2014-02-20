@@ -1,9 +1,18 @@
 <?php
     
 ?>
-
+<!--[if lte IE 9]>
+    <script type="text/javascript" src="../css/pie/PIE.js"></script>
+<![endif]-->
 <script type="text/javascript">
+
     jQuery(function(){
+            if (window.PIE) {
+                jQuery('.dashboard_img').each(function() {
+                    PIE.attach(this);
+                });
+            }
+
             jQuery('#cs_nav').localScroll(800);
             jQuery('.small_log').parallax("50%", 1);
             jQuery('#dashboard_img1').parallax("50%", 0.2);
