@@ -38,7 +38,7 @@ if($nid){
 <script type="text/javascript">
     jQuery(function(){
         jQuery( ".active" ).find('a').css('color','black');
-        jQuery( ".unactive" ).find('a').css('color','#3c3b39');
+        jQuery( ".unactive" ).find('a').css('color','#666666');
     });
 </script>
 
