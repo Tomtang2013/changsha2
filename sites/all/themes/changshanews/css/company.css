@@ -120,7 +120,8 @@
     font-size: 12px;
     max-width: 580px;
     line-height: 28px;
-    font-family: fine-black;
+/*    font-family: fine-black;*/
+    font: Microsoft YaHei,"\5B8B\4F53",Arial,HELVETICA;
 }
 
 .work_about_team_main{
