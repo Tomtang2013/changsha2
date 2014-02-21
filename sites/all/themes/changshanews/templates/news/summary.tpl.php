@@ -62,7 +62,7 @@ foreach ($result as $row) {
             <div style="min-height:400px;background-color: #ffffff;">
                 <ul style="list-style-type:none;padding-left: 0px;margin-top: 0px;">
                 <?php foreach($news_list as $news):?>
-                       <li style="padding:10px;">
+                       <li style="padding:10px 10px 0px 10px;height:20px;">
                            <a class="news_link" href="<?php print $news_detail_path.$news->nid; ?>">
                                 <?php print $news->title; ?></a>
                        <span style="float:right;">[ <?php print $news->public_date; ?> ]</span></li>
