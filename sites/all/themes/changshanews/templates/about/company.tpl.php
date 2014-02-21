@@ -43,7 +43,7 @@ function loadFont(font, ele) {
 }
 
 window.onload = function() {
-    loadFont("fine-black", document.getElementsByClassName("nav")[0]);
+    loadFont("fine-black", document.getElementsByClassName("work_about_company_text_area")[0]);
 };
 </script>
 
