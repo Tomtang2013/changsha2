@@ -31,6 +31,8 @@ foreach ($result as $row) {
             mode: 'fade',
             onSliderLoad: function(){
              jQuery('.bx-pager-item').hide();
+             jQuery('.bx-controls-direction').hide();
+
           },
             autoControls: true
         });
