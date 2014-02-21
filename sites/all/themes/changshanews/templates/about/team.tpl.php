@@ -85,7 +85,7 @@ uasort($experts, "compareItems");
         </div>
         <div style="clear:both;">
             <div class="team_member_list">
-                <div><p>专家顾问</p></div>
+                <div><p>团队成员</p></div>
                 <div class="team_member_imgs">
                    <?php $i=0; foreach($consultants as $consultant):
                     $i++;
