@@ -32,7 +32,8 @@
          <a href="" style="z-index: 999;padding-left: 40px;">
             <img class="dashboard_main_logo small_log" src="<?php print drupal_get_path('theme', 'changshanews'); ?>/images/header/design_changsha_logo.png" alt=""/></a>
         <div class="story">
-            <!--        <a href="#" class="small_log"><img class=" small_log1" src="<?php //print drupal_get_path('module', 'dashboard'); ?>/images/main_image/dashboard_logo1.png"  alt=""/></a>-->
+           <div class=" small_log1" style="background-position: 20% 220px;">
+            </div>
         </div>
     </div>
     <div class="dashboard_img dashboard_img2" id="dashboard_img2">

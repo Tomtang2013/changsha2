@@ -160,37 +160,42 @@ body{
    height:515px;
 }
 .dashboard_main .small_log1{
-    width: 250px;
-    height:80px;
+    background: url(../images/main_image/dashboard_logo1.png) 50% 0 no-repeat fixed;
+/*        background-size:90px ;*/
+        z-index: 200;
+	margin: 0 auto;
+	position: absolute;
+	width: 900px;
+        height: 494px;
 }
 
 .dashboard_main .small_log2{
         background: url(../images/main_image/dashboard_logo2.png) 50% 0 no-repeat fixed;
-        background-size:90px ;
+/*        background-size:90px ;*/
         z-index: 200;
 	margin: 0 auto;
 	position: absolute;
 	width: 900px;
-        height: 515px;
+        height: 494px;
 }
 .dashboard_main .small_log3{
         background: url(../images/main_image/dashboard_logo3.png) 50% 0 no-repeat fixed;
-        background-size:140px ;
+/*        background-size:140px ;*/
         z-index: 200;
 	margin: 0 auto;
 	position: absolute;
 	width: 900px;
-        height: 515px;
+        height: 494px;
 }
 
 .dashboard_main .small_log4{
     background: url(../images/main_image/dashboard_logo4.png) 50% 0 no-repeat fixed;
-    background-size:180px ;
+/*    background-size:180px ;*/
     z-index: 200;
     margin: 0 auto;
     position: absolute;
     width: 900px;
-    height: 515px;
+    height: 494px;
 }
 .dashboard_main .small_log{
     z-index: 200;

@@ -77,7 +77,11 @@ if($nid){
                 <p>设计长沙组委会秘书长</p>
                 <p>潇湘晨报全系全媒体创意总监</p>-->
             </div>
-            <div  class="member_discrib_bottom">
+            <div  class="member_discrib_bottom"
+                  <?php if( $member->m_type !=0 ):?>
+                    style="display:none;" 
+                  <?php endif;?>
+             >
                 <?php print $member->m_desc; ?>
 <!--                <p>从事多年媒体传播视觉化行销与品牌策略研究；</p>
                 <p>2011 - 2012 连续蝉联中国国际艾菲尔奖，且多次获国内外设计及策划奖项。</p>-->
