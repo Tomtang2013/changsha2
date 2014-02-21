@@ -166,7 +166,7 @@ body{
 	margin: 0 auto;
 	position: absolute;
 	width: 900px;
-        height: 494px;
+        height: 515px;
 }
 
 .dashboard_main .small_log2{
@@ -176,7 +176,7 @@ body{
 	margin: 0 auto;
 	position: absolute;
 	width: 900px;
-        height: 494px;
+        height: 515px;
 }
 .dashboard_main .small_log3{
         background: url(../images/main_image/dashboard_logo3.png) 50% 0 no-repeat fixed;
@@ -185,7 +185,7 @@ body{
 	margin: 0 auto;
 	position: absolute;
 	width: 900px;
-        height: 494px;
+        height: 515px;
 }
 
 .dashboard_main .small_log4{
@@ -195,7 +195,7 @@ body{
     margin: 0 auto;
     position: absolute;
     width: 900px;
-    height: 494px;
+    height: 515px;
 }
 .dashboard_main .small_log{
     z-index: 200;
