@@ -10,6 +10,41 @@ $theme_path = $base_path . drupal_get_path('theme', 'changshanews');
         jQuery( ".active" ).find('a').css('color','black');
         jQuery( ".unactive" ).find('a').css('color','#666666');
     });
+
+</script>
+<script type="text/javascript">
+// font: 字体名称，ele: 要使用此字体的元素
+function loadFont(font, ele) {
+    var span = document.createElement("span");
+    // 这几个字母和符号宽度比较容易变化
+    span.innerHTML = "gW@i#Q!T";
+    // 设置为不可见，但可以测量宽度
+    span.style.visibility = "hidden";
+    // 字体大小为 500px，如果宽度变化比较容易区分
+    span.style.fontSize = "500px";
+    // 设置字体
+    span.style.fontFamily = font;
+    // 添加到页面
+    document.body.appendChild(span);
+    // 获取宽度
+    var width_now = span.offsetWidth;
+    // 每 0.05 秒检查一次是否加载
+    var interval_check = setInterval(function() {
+        // 宽度变化，说明字体被加载
+        if(span.offsetWidth != width_now) {
+            clearInterval(interval_check);
+            // 设置字体为
+            ele.style.fontFamily = font;
+            // 移除 span
+            document.body.removeChild(span);
+            span = null;
+        }
+    }, 50);
+}
+
+window.onload = function() {
+    loadFont("fine-black", document.getElementsByClassName("nav")[0]);
+};
 </script>
 
 
