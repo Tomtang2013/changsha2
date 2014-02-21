@@ -219,7 +219,7 @@
 
 .member_discrib_right{
     float: left;
-    padding:157px 0px 50px 0px;
+    padding:127px 0px 50px 0px;
     font-family: fiber-black;
 }
 
@@ -230,6 +230,7 @@
      padding-top: 30px;
      max-width: 440px;
      font-family: fiber-black;
+     display:none;
 }
 
 .member_discrib_bottom p{
