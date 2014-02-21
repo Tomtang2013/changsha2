@@ -213,13 +213,13 @@
 .member_discrib_left{
     font-size: 36px;
     float: left;
-    padding:150px 50px 50px 30px;
+    padding:150px 30px 50px 30px;
     font-family: super-fine-black;
 }
 
 .member_discrib_right{
     float: left;
-    padding:157px 38px 50px 0px;
+    padding:157px 0px 50px 0px;
     font-family: fiber-black;
 }
 
