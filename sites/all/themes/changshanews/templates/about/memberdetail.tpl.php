@@ -71,7 +71,7 @@ if($nid){
             <div class="member_discrib_left">
                <?php print $member->m_name; ?>
             </div>
-            <div class="member_discrib_right">
+            <div class="member_discrib_right" style="padding-top:157px;">
                 <?php print $member->m_title; ?>
 <!--                <p>潇湘晨报品牌创意中心总经理</p>
                 <p>设计长沙组委会秘书长</p>
