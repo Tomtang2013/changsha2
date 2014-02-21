@@ -29,6 +29,9 @@ foreach ($result as $row) {
         jQuery('.bxslider').bxSlider({
             auto: isAuto,
             mode: 'fade',
+            onSliderLoad: function(){
+             jQuery('.bx-pager-item').hide();
+          },
             autoControls: true
         });
         jQuery('.bx-controls').show();
@@ -40,7 +43,6 @@ foreach ($result as $row) {
 
 //        jQuery('.bx-controls').css('top','640px');
         jQuery('.bx-wrapper').find('img').css('min-height','400px');
-        jQuery('.bx-pager-item').hide();
     });
 </script>
 
