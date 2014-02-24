@@ -12,7 +12,7 @@ foreach ($result as $row) {
     $news->nid = $row->nid;
     $news->title = $node->title;
     $news->public_date = $node->field_public_date['und'][0]['value'];
-    $url = file_create_url($node->field_n_b_image1['und'][0]['uri']);
+    $url = file_create_url($node->field_n_s_image['und'][0]['uri']);
     $url = parse_url($url);
     $paths[] = $url['path'];
     $news_list[] = $news;
@@ -30,10 +30,8 @@ foreach ($result as $row) {
             auto: isAuto,
             mode: 'fade',
             onSliderLoad: function(){
-             jQuery('.bx-pager-item').hide();
-             jQuery('.bx-controls-direction').hide();
 
-          },
+             },
             autoControls: true
         });
         jQuery('.bx-controls').show();
@@ -45,8 +43,11 @@ foreach ($result as $row) {
 
 //        jQuery('.bx-controls').css('top','640px');
         jQuery('.bx-wrapper').find('img').css('min-height','400px');
-        jQuery('.bx-pager-item').hide();
-        jQuery('.bx-controls-direction').hide();
+         setTimeout(function(){
+                jQuery('.bx-pager-item').hide();
+                jQuery('.bx-controls-direction').hide();
+            },500);
+        
     });
 </script>
 
