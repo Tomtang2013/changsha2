@@ -24,7 +24,7 @@ foreach ($result as $row) {
     var isAuto = false;
 //      if(<?php print count($paths);?> > 1)
         isAuto = true;
-    jQuery(function(){
+        jQuery(function(){
         jQuery( ".news_link" ).css('color','black');
         jQuery('.bxslider').bxSlider({
             auto: isAuto,
@@ -45,6 +45,8 @@ foreach ($result as $row) {
 
 //        jQuery('.bx-controls').css('top','640px');
         jQuery('.bx-wrapper').find('img').css('min-height','400px');
+        jQuery('.bx-pager-item').hide();
+        jQuery('.bx-controls-direction').hide();
     });
 </script>
 
