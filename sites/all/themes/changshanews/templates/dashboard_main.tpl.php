@@ -1,4 +1,9 @@
 <?php
+    global $base_path;
+    $bg1_path = '#';//$base_path.'work/detail/24';
+    $bg2_path = $base_path.'work/detail/11';
+    $bg3_path = $base_path.'work/detail/10';
+    $bg4_path = $base_path.'work/detail/24';
 ?>
 <script type="text/javascript">
 
@@ -32,29 +37,37 @@
          <a href="" style="z-index: 999;padding-left: 40px;">
             <img class="dashboard_main_logo small_log" src="<?php print drupal_get_path('theme', 'changshanews'); ?>/images/header/design_changsha_logo.png" alt=""/></a>
         <div class="story">
-           <div class=" small_log1" style="background-position: 20% 220px;">
-            </div>
+            <a href="<?php print $bg1_path;?>">
+                <div class=" small_log1" style="background-position: 20% 220px;">
+                </div>
+            </a>
         </div>
     </div>
     <div class="dashboard_img dashboard_img2" id="dashboard_img2">
         <div class="story">
+                <a href="<?php print $bg2_path;?>">
                 <div class=" small_log2" style="background-position: 80% 220px;">
 <!--                    <a href="#" style="min-width:90px;min-height:130px;margin-left: 80%;margin-top: 100px;"> aaa </a>-->
                 </div>
+                </a>
         </div>
     </div>
     <div class="dashboard_img dashboard_img3" id="dashboard_img3" style="z-index:300;">
         <div class="story">
+            <a href="<?php print $bg3_path;?>">
             <div class=" small_log3" style="background-position: 20% 200px;">
             </div>
+            </a>
 <!--            <a href="#" class="small_log"><img class="  small_log3" src="<?php print drupal_get_path('theme', 'changshanews'); ?>/images/main_image/dashboard_logo3.png"  alt=""/></a>-->
         </div>
     </div>
     <div class="dashboard_img dashboard_img4" id="dashboard_img4">
         <div class="story">
+            <a href="<?php print $bg4_path;?>">
             <div class=" small_log4" style="background-position: 75% 200px;">
                 
             </div>
+            </a>
 <!--            <a href="#" class="small_log"><img class=" small_log4" src="<?php print drupal_get_path('theme', 'changshanews'); ?>/images/main_image/dashboard_logo4.png"  alt=""/></a>-->
         </div>
     </div>

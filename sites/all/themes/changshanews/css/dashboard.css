@@ -6,7 +6,7 @@
       font-style: normal;
       font-weight: 400;
       src: local('Pontano Sans'), local('PontanoSans-Regular'),
-          url("font/FZLTXHK_0.TTF") format('woff');
+          url("font/psr.TTF") format('woff');
     }
 
     @font-face {
