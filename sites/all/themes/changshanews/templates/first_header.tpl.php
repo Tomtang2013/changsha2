@@ -21,8 +21,9 @@ $news = $base_path .'news/summary';
 
 <div class="first_header">
         <ul style="margin-left: 50px;margin-top:20px;">
-            <li> <a href="<?php print $base_path?>">设计长沙</a></li>
-            <li>|<a href="#">潇湘晨报品牌创意中心</a> </li>
+            <li> <a href="<?php print $base_path?>">首页</a></li>
+            <li style="color:#ffffff">&nbsp;|&nbsp; 设计长沙</li>
+            <li style="color:#ffffff">&nbsp;|&nbsp;潇湘晨报品牌创意中心</li>
         </ul>
 
          <ul class="nav_link" style="padding-right:50px">
