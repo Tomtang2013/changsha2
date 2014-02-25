@@ -1,7 +1,7 @@
 /*    @import url(http://fonts.googleapis.com/css?family=Maven+Pro);*/
 /*    @import url(http://fonts.googleapis.com/css?family=Pontano+Sans);*/
 
-    @font-face {
+/*    @font-face {
       font-family: 'Pontano Sans';
       font-style: normal;
       font-weight: 400;
@@ -39,7 +39,7 @@
        font-weight: normal;
        font-stretch: normal;
        src: url("font/fzltqhjt.TTF") format("opentype");
-   }
+   }*/
 
 
 body{
@@ -69,7 +69,7 @@ body{
     width: 100%;
     background-color: black;
     height:60px;
-/*    font-family: fiber-black;*/
+    font-family: fiber-black;
  
 }
 
