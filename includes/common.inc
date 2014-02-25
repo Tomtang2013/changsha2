@@ -361,6 +361,17 @@ function _drupal_default_html_head() {
 
     ),
   );
+
+   $elements['http_equiv'] = array(
+    '#type' => 'html_tag',
+    '#tag' => 'meta',
+    '#attributes' => array(
+      'http-equiv' => 'X-UA-Compatible',
+      'content' => 'IE=edge,chrome=1',
+//        'content' => 'ie-stand',
+
+    ),
+  );
    
   // Also send the generator in the HTTP header.
   $elements['system_meta_generator']['#attached']['drupal_add_http_header'][] = array('X-Generator', $elements['system_meta_generator']['#attributes']['content']);
