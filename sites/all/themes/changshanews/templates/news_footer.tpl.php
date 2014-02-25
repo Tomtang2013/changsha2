@@ -30,7 +30,5 @@
         <div class="footer_item"><a href=""><img class="new_media_img" src="<?php print $base_path.drupal_get_path('theme', 'changshanews'); ?>/images/footer/wx.png" alt=""></a></div>
         <div class="footer_item"> <a href=""><img class="new_media_img" src="<?php print $base_path.drupal_get_path('theme', 'changshanews'); ?>/images/footer/facebook.png" alt=""></a></div>
         <div class="footer_item"><a href=""><img class="new_media_img" src="<?php print $base_path.drupal_get_path('theme', 'changshanews'); ?>/images/footer/twritter.png" alt=""></a></div>
-        <div class="footer_item"> <a href=""><img src="" alt=""></a></div>
-        <div class="footer_item"><a href=""><img src="" alt=""></a></div>
     </div>
 </div>
