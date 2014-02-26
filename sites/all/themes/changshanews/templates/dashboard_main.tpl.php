@@ -34,9 +34,7 @@
 
 <div class="dashboard_main">
     <div class="dashboard_img dashboard_img1" id="dashboard_img1">
-         <a href="" style="z-index: 999;padding-left: 40px;">
-            <img class="dashboard_main_logo small_log" src="<?php print drupal_get_path('theme', 'changshanews'); ?>/images/header/design_changsha_logo.png" alt=""/></a>
-        <div class="story">
+         <div class="story">
             <a href="<?php print $bg1_path;?>">
                 <div class=" small_log1" style="background-position: 90% 220px;">
                 </div>
